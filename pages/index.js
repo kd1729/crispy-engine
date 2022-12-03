@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <NavBar />
-      <div className="bg-black h-screen w-screen flex flex-row justify-around pt-8">
+      <div className="bg-black h-screen w-screen flex flex-row justify-around mt-40">
         <MyName />
         <MyImage />
       </div>

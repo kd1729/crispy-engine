@@ -5,6 +5,11 @@
 wrapper {
   display: flex;
 }
+
+body{
+  background-color: black;
+}
+
 .wrapper .static-txt {
   color: #fff;
   font-size: 60px;
