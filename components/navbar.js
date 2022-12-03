@@ -33,10 +33,10 @@ const navigationRoutes = [
 
 function NavBar() {
   return (
-    <div className="text-xl bg-emerald-800 flex justify-end">
+    <div className="text-xl text-white bg-black flex justify-end">
       {navigationRoutes.map((route) => (
         <Link key={route.name} href={route.path} passHref>
-          <div className="text-gray-50 m-4 hover:bg-emerald-700">
+          <div className="text-gray-50 m-4 hover:text-cyan-600">
             {route.name}
           </div>
         </Link>
