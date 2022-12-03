@@ -36,7 +36,7 @@ function NavBar() {
     <div className="text-xl text-white bg-black flex justify-end">
       {navigationRoutes.map((route) => (
         <Link key={route.name} href={route.path} passHref>
-          <div className="text-gray-50 m-4 hover:text-cyan-600">
+          <div className="text-gray-50 m-4 hover:text-blue-400">
             {route.name}
           </div>
         </Link>
