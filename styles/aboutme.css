@@ -1,27 +1,30 @@
 .photo {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 80%;
   transform: translate(-50%, -50%);
   display: block;
 }
 
 .photo img {
-  width: 200px;
-  height: 280px;
+  border-radius: 50%;
+  background-color: rgb(53, 52, 52);
+  width: 300px;
+  height: 300px;
   object-fit: cover;
-  filter: grayscale(100%) contrast(120%);
-  box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, 0.2);
+  filter: grayscale(40%) contrast(120%);;
+  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.1);
   display: block;
   transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
   margin-top: -10px;
 }
 
 .photo:hover img {
-  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 15px 25px 0 rgba(30, 30, 31, 0.964);
 }
 
 .photo .glow-wrap {
+  border-radius: 50%;
   overflow: hidden;
   position: absolute;
   width: 100%;
@@ -55,11 +58,11 @@
 .photo h1 {
   position: absolute;
   z-index: 1;
-  transform: translate(-25%, -65%);
+  transform: translate(+60%, -45%);
   font-family: "Montserrat", sans-serif;
   margin: 0;
   line-height: 1.2;
   color: white;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 

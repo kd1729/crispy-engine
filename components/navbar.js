@@ -6,42 +6,40 @@ const navigationRoutes = [
     path: "/",
   },
   {
-    name: "About",
+    name: "About Me",
     path: "/about",
   },
   {
-    name: "Contact",
+    name: "Contact Me",
     path: "/contact",
   },
   {
-    name: "Skills",
-    path: "/skills",
-  },
-  {
-    name: "Projects",
+    name: "My Projects",
     path: "/projects",
   },
   {
-    name: "Experience",
+    name: "Experiences",
     path: "/experience",
   },
   {
-    name: "Blogs",
+    name: "My Blogs",
     path: "/blogs",
   },
 ];
 
 function NavBar() {
   return (
-    <div className="text-xl font-semibold bg-[#393E46] flex w-screen justify-end fixed">
-      {navigationRoutes.map((route) => (
-        <Link key={route.name} href={route.path} passHref>
-          <div className="text-gray-50 m-4 hover:text-blue-400 hover:underline">
-            {route.name}
-          </div>
-        </Link>
-      ))}
-    </div>
+    <div className=" bg-[#393E46] flex gap-2 w-screen justify-end fixed">
+        {navigationRoutes.map((route) => (
+          <Link key={route.name} href={route.path} passHref>
+            <div className="text-gray-50 m-4 hover:text-blue-400 hover:underline">
+              <div className="hover:font-bold text-lg hover:text-xl w-28 font-semibold ease-in-out duration-300">
+                {route.name}
+              </div>
+            </div>
+          </Link>
+        ))}
+      </div>
   );
 }
 
