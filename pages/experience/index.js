@@ -3,6 +3,34 @@ import Image from "next/image";
 
 const internships = [
   {
+  company: 'Ivanti',
+  position: 'SDE Winter Intern',
+  dateFrom: 'Date 1',
+  dateTo: 'Date 2',
+  description: 'Description 1',
+},
+{
+  company: 'Walmart',
+  position: 'SDE Summer Intern',
+  dateFrom: 'Date 1',
+  dateTo: 'Date 2',
+  description: 'Description 2',
+},
+{
+  company: 'Company 3',
+  position: 'Frontend Intern',
+  dateFrom: 'Date 1',
+  dateTo: 'Date 2',
+  description: 'Description 3',
+},
+{
+  company: 'Funcbox',
+  position: 'Fontend Intern',
+  dateFrom: 'Date 1',
+  dateTo: 'Date 2',
+  description: 'Description 3',
+},
+  {
     company: 'Ivanti',
     position: 'SDE Winter Intern',
     dateFrom: 'Date 1',

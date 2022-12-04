@@ -39,7 +39,7 @@ wrapper {
     left: 0;
     height: 110%;
     width: 100%;
-    background: #343f4f;
+    background: #393E46;
     border-left: 2px solid #fc6d6d;
     animation: typing 3s steps(10) infinite;
   }

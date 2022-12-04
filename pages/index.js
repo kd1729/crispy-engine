@@ -5,15 +5,15 @@ import ResumeDownload from "../components/ResumeDownload.js";
 
 export default function Home() {
   return (
-    <>
+    <div>
       <NavBar />
-      <div className="bg-black h-auto w-auto flex flex-row justify-around mt-40">
-        <div>
+      <div className="bg-[#393E46] flex flex-row justify-around pt-60">
+        <div className="">
           <MyName />
           <ResumeDownload />
         </div>
         <MyImage />
       </div>
-    </>
+    </div>
   );
 }

@@ -4,34 +4,40 @@ import NavBar from "../../components/NavBar";
 
 const MyProjects = [
   {
-    title: "Project 1",
+    title: "TMDB Movie App",
     description: "This is my first project",
-    image: "https://picsum.photos/200/300",
+    image: "/TMDB.jpg",
+    link: "",
   },
   {
-    title: "Project 2",
+    title: "MultiUser Todo App",
     description: "This is my second project",
-    image: "https://picsum.photos/200/300",
+    image: "/todo_app.png",
+    link: "",
   },
   {
-    title: "Project 3",
+    title: "Excuser API",
     description: "This is my third project",
-    image: "https://picsum.photos/200/300",
+    image: "/EXCUSER.jpg",
+    link: "",
   },
   {
-    title: "Project 4",
+    title: "FaceMask Detection",
     description: "This is my fourth project",
-    image: "https://picsum.photos/200/300",
+    image: "/facemask.jpg",
+    link: "",
   },
   {
     title: "Project 5",
     description: "This is my fifth project",
-    image: "https://picsum.photos/200/300",
+    image: "/frontendmentor.png",
+    link: "",
   },
   {
     title: "Project 6",
     description: "This is my sixth project",
-    image: "https://picsum.photos/200/300",
+    image: "/ipadresstracker.jpg",
+    link: "",
   },
 ];
 
@@ -39,16 +45,30 @@ export default function Projects() {
   return (
     <div>
       <NavBar />
-      <div className=" flex flex-col justify-center items-center">
-        <h1 className="text-5xl text-emerald-600 my-8">My Projects</h1>
-        <div className="grid grid-cols-3 grid-rows-2 justify-center items-center gap-x-20 gap-y-12 bg-slate-700">
+      <div className=" flex flex-col justify-center items-center pt-20">
+        <h1 className="text-5xl text-[#F7F7F7] my-8 font-semibold">
+          My Projects
+        </h1>
+        <div className="grid grid-cols-2 grid-rows-3 gap-x-8 justify-center items-center">
           {MyProjects.map((project) => (
-            <div key={project.name} className="bg-green-200 p-4" >
-              <Image src="/pfp.jpg" alt={project.title} 
-              height={300} width={300} 
-              />
-              <h3>{project.title}</h3>
-              <p>{project.description}</p>
+            <div
+              key={project.name}
+              className="bg-[#D6E4E5] p-4 my-8 flex rounded-xl"
+            >
+              <div>
+                <Image
+                  src={project.image}
+                  alt={project.title}
+                  height={300}
+                  width={300}
+                />
+              </div>
+              <div className="flex flex-col pl-4">
+                <h3 className="font-semibold text-2xl text-[#EB6440]">
+                  {project.title}
+                </h3>
+                <p>{project.description}</p>
+              </div>
             </div>
           ))}
         </div>
