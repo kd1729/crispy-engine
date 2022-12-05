@@ -2,6 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import NavBar from "../../components/NavBar";
 
+const Width = 8;
+
 const MyProjects = [
   {
     title: "TMDB Movie App",
@@ -9,7 +11,7 @@ const MyProjects = [
     tech: "React, Auth0, TailwindCSS",
     image: "/TMDB.jpg",
     link: "https://github.com/onlykingKD/movie_db_react_app",
-    width: 230,
+    width: Width * 23,
   },
   {
     title: "MultiUser Todo App",
@@ -17,7 +19,7 @@ const MyProjects = [
     tech: "React, Firestore, Firebase Auth",
     image: "/todo_app.png",
     link: "https://github.com/onlykingKD/multiuser_todoApp_from_scratch",
-    width: 300,
+    width: Width * 30,
   },
   {
     title: "Excuser API",
@@ -25,7 +27,7 @@ const MyProjects = [
     tech: "Node.js, Express.js",
     image: "/EXCUSER.jpg",
     link: "https://github.com/primeTanM/Excuser/",
-    width: 330,
+    width: Width * 33,
   },
   {
     title: "FaceMask Detector",
@@ -33,7 +35,7 @@ const MyProjects = [
     tech: "Transfer Learning, Keras, Tensorflow",
     image: "/facemask.jpg",
     link: "https://github.com/onlykingKD/Face-Mask-Detector",
-    width: 230,
+    width: Width * 23,
   },
   {
     title: "Frontend Mentor ",
@@ -41,7 +43,7 @@ const MyProjects = [
     tech: "HTML5, CSS3, JavaScript",
     image: "/frontendmentor.png",
     link: "https://github.com/onlykingKD/FRONTEND-MENTOR-CHALLENGES",
-    width: 280,
+    width: Width * 28,
   },
   {
     title: "IP Address Tracker",
@@ -49,7 +51,7 @@ const MyProjects = [
     tech: "HTML5, CSS3, JavaScript",
     image: "/ipadresstracker.jpg",
     link: "https://github.com/onlykingKD/IP-Adress-Tracker",
-    width: 370,
+    width: Width * 37,
   },
 ];
 
@@ -65,7 +67,7 @@ export default function Projects() {
           {MyProjects.map((project) => (
             <div
               key={project.name}
-              className="bg-[#D6E4E5] p-4 my-8 flex rounded-xl"
+              className="bg-[#D6E4E5] p-4 my-8 flex rounded-xl "
             >
               <div>
                 <Image
@@ -75,7 +77,7 @@ export default function Projects() {
                   width={project.width}
                 />
               </div>
-              <div className="flex flex-col pl-4 justify-center">
+              <div className="flex flex-col pl-4 justify-center  items-center">
                 <h3 className="font-semibold text-2xl text-[#EB6440]">
                   {project.title}
                 </h3>
