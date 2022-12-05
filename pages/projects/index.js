@@ -6,38 +6,50 @@ const MyProjects = [
   {
     title: "TMDB Movie App",
     description: "This is my first project",
+    tech: "React, Auth0, TailwindCSS",
     image: "/TMDB.jpg",
-    link: "",
+    link: "https://github.com/onlykingKD/movie_db_react_app",
+    width: 230,
   },
   {
     title: "MultiUser Todo App",
     description: "This is my second project",
+    tech: "React, Firestore, Firebase Auth",
     image: "/todo_app.png",
-    link: "",
+    link: "https://github.com/onlykingKD/multiuser_todoApp_from_scratch",
+    width: 300,
   },
   {
     title: "Excuser API",
     description: "This is my third project",
+    tech: "Node.js, Express.js",
     image: "/EXCUSER.jpg",
-    link: "",
+    link: "https://github.com/primeTanM/Excuser/",
+    width: 330,
   },
   {
-    title: "FaceMask Detection",
+    title: "FaceMask Detector",
     description: "This is my fourth project",
+    tech: "Transfer Learning, Keras, Tensorflow",
     image: "/facemask.jpg",
-    link: "",
+    link: "https://github.com/onlykingKD/Face-Mask-Detector",
+    width: 230,
   },
   {
-    title: "Project 5",
+    title: "Frontend Mentor ",
     description: "This is my fifth project",
+    tech: "HTML5, CSS3, JavaScript",
     image: "/frontendmentor.png",
-    link: "",
+    link: "https://github.com/onlykingKD/FRONTEND-MENTOR-CHALLENGES",
+    width: 280,
   },
   {
-    title: "Project 6",
+    title: "IP Address Tracker",
     description: "This is my sixth project",
+    tech: "HTML5, CSS3, JavaScript",
     image: "/ipadresstracker.jpg",
-    link: "",
+    link: "https://github.com/onlykingKD/IP-Adress-Tracker",
+    width: 370,
   },
 ];
 
@@ -59,14 +71,25 @@ export default function Projects() {
                 <Image
                   src={project.image}
                   alt={project.title}
-                  height={300}
-                  width={300}
+                  height={0}
+                  width={project.width}
                 />
               </div>
-              <div className="flex flex-col pl-4">
+              <div className="flex flex-col pl-4 justify-center">
                 <h3 className="font-semibold text-2xl text-[#EB6440]">
                   {project.title}
                 </h3>
+                <h3 className="font-semibold text-lg text-[#4054eb]">
+                  {project.tech}
+                </h3>
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="font-semibold text-lg text-[#8925a8] decoration-solid hover:underline"
+                >
+                  Github Link
+                </a>
                 <p>{project.description}</p>
               </div>
             </div>

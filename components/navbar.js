@@ -6,15 +6,11 @@ const navigationRoutes = [
     path: "/",
   },
   {
-    name: "About Me",
+    name: "About",
     path: "/about",
   },
   {
-    name: "Contact Me",
-    path: "/contact",
-  },
-  {
-    name: "My Projects",
+    name: "Projects",
     path: "/projects",
   },
   {
@@ -22,8 +18,12 @@ const navigationRoutes = [
     path: "/experience",
   },
   {
-    name: "My Blogs",
+    name: "Blogs",
     path: "/blogs",
+  },
+  {
+    name: "Contact",
+    path: "/contact",
   },
 ];
 
