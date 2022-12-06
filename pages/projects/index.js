@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { AiFillGithub } from "react-icons/ai";
 import NavBar from "../../components/NavBar";
 
 const Width = 8;
@@ -118,7 +119,7 @@ export default function Projects() {
                   width={project.width}
                 />
               </div>
-              <div className="flex flex-col pl-4 justify-center items-center  flex-1">
+              <div className="flex flex-col pl-4 justify-center items-center flex-1">
                 <h3 className="font-semibold text-2xl text-[#EB6440]">
                   {project.title}
                 </h3>
@@ -131,7 +132,9 @@ export default function Projects() {
                   rel="noreferrer"
                   className="font-semibold text-lg text-[#8925a8] decoration-solid hover:underline"
                 >
-                  Github Link
+                  <div className="flex justify-center items-center">
+                    <span> Github Link</span> <AiFillGithub color="#171515" className="text-2xl ml-1" />
+                  </div>
                 </a>
                 <h4 className="font-semibold text-lg text-[#4054eb]">
                   {project.date}
@@ -140,6 +143,20 @@ export default function Projects() {
               </div>
             </div>
           ))}
+        </div>
+        <div className="text-white text-3xl my-12 flex justify-center items-center">
+          <div>Check out my Github for more projects.</div>
+          <a
+            href="github.com/onlykingKD"
+            target="_blank"
+            rel="noreferrer"
+            className="font-semibold text-lg text-[#8925a8] decoration-solid hover:underline"
+          >
+            <AiFillGithub
+              color="#171515"
+              className="ml-4 text-5xl bg-white rounded-lg"
+            />
+          </a>
         </div>
       </div>
     </div>
