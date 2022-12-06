@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 import NavBar from "../../components/NavBar";
 
@@ -11,7 +10,8 @@ const MyProjects = [
     tech: "React, Auth0, TailwindCSS",
     image: "/TMDB.jpg",
     link: "https://github.com/onlykingKD/movie_db_react_app",
-    width: Width * 23,
+    date: "Dec-2021",
+    width: Width * 22,
   },
   {
     title: "MultiUser Todo App",
@@ -19,6 +19,7 @@ const MyProjects = [
     tech: "React, Firestore, Firebase Auth",
     image: "/todo_app.png",
     link: "https://github.com/onlykingKD/multiuser_todoApp_from_scratch",
+    date: "Nov-2021",
     width: Width * 30,
   },
   {
@@ -27,6 +28,7 @@ const MyProjects = [
     tech: "Node.js, Express.js",
     image: "/EXCUSER.jpg",
     link: "https://github.com/primeTanM/Excuser/",
+    date: "Jan-2022",
     width: Width * 33,
   },
   {
@@ -35,6 +37,7 @@ const MyProjects = [
     tech: "Transfer Learning, Keras, Tensorflow",
     image: "/facemask.jpg",
     link: "https://github.com/onlykingKD/Face-Mask-Detector",
+    date: "Dec-2020",
     width: Width * 23,
   },
   {
@@ -43,6 +46,7 @@ const MyProjects = [
     tech: "HTML5, CSS3, JavaScript",
     image: "/frontendmentor.png",
     link: "https://github.com/onlykingKD/FRONTEND-MENTOR-CHALLENGES",
+    date: "July-2021",
     width: Width * 28,
   },
   {
@@ -51,7 +55,44 @@ const MyProjects = [
     tech: "HTML5, CSS3, JavaScript",
     image: "/ipadresstracker.jpg",
     link: "https://github.com/onlykingKD/IP-Adress-Tracker",
+    date: "Aug-2021",
     width: Width * 37,
+  },
+  {
+    title: "DOS Attack Detection",
+    description: "This is my seventh project",
+    tech: "Machine Learning",
+    image: "/DOS.jpg",
+    link: "https://github.com/onlykingKD/DOS-detection-using-ML",
+    date: "March-2022",
+    width: Width * 33,
+  },
+  {
+    title: "Lottery Smart Contract",
+    description: "This is my eigth project",
+    tech: "Solidity, Mocha, Ganache, Truffle",
+    image: "/lottery.jpg",
+    link: "https://github.com/onlykingKD/Lottery-Contract",
+    date: "Oct-2022",
+    width: Width * 37,
+  },
+  {
+    title: "Number Guessing Game",
+    description: "This is my ninth project",
+    tech: "ReactNative, Expo",
+    image: "/numberGuess.png",
+    link: "https://github.com/onlykingKD/NumberGuessing-ReactNative",
+    date: "Sept-2022",
+    width: Width * 37,
+  },
+  {
+    title: "Calculator App",
+    description: "This is my tenth project",
+    tech: "HTML5, CSS3, JavaScript",
+    image: "/calculator.PNG",
+    link: "https://github.com/onlykingKD/Simple-Calculator",
+    date: "Aug-2021",
+    width: Width * 33,
   },
 ];
 
@@ -77,7 +118,7 @@ export default function Projects() {
                   width={project.width}
                 />
               </div>
-              <div className="flex flex-col pl-4 justify-center  items-center">
+              <div className="flex flex-col pl-4 justify-center items-center  flex-1">
                 <h3 className="font-semibold text-2xl text-[#EB6440]">
                   {project.title}
                 </h3>
@@ -92,7 +133,10 @@ export default function Projects() {
                 >
                   Github Link
                 </a>
-                <p>{project.description}</p>
+                <h4 className="font-semibold text-lg text-[#4054eb]">
+                  {project.date}
+                </h4>
+                {/* <div className="font-bold">{project.description}</div> */}
               </div>
             </div>
           ))}
