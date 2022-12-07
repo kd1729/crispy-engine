@@ -1,4 +1,4 @@
-import NavBar from "../../components/NavBar";
+import NavBar from "../../components/navbar";
 import Image from "next/image";
 
 const internships = [

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { AiFillGithub } from "react-icons/ai";
-import NavBar from "../../components/NavBar";
+import NavBar from "../../components/navbar";
 
 const Width = 8;
 

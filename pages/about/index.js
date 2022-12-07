@@ -1,4 +1,4 @@
-import NavBar from "../../components/NavBar";
+import NavBar from "../../components/navbar";
 import MyImage2 from "../../components/MyImage2";
 
 export default function About() {
