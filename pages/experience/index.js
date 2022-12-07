@@ -63,7 +63,7 @@ const internships = [
 export default function Experience() {
   return (
     <div>
-      <NavBar />
+      <NavBar activeSection="Experiences" />
       <div className=" flex flex-col justify-center items-center">
         <h1 className="text-5xl text-emerald-600 my-8">My Internships</h1>
         <div className="grid grid-cols-2 grid-rows-2 justify-center items-center gap-x-20 gap-y-12 bg-slate-700">

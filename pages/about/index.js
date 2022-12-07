@@ -4,7 +4,7 @@ import MyImage2 from "../../components/MyImage2";
 export default function About() {
   return (
     <div>
-      <NavBar />
+      <NavBar activeSection="About" />
       <div className="text-center text-white pt-20 mx-40">
         <h1 className="text-3xl font-bold">About Me</h1>
         <p className="text-xl">

@@ -8,7 +8,7 @@ export default function Home() {
   return (
 
     <div>
-      <NavBar />
+      <NavBar activeSection="Home" />
       <div className="bg-[#393E46] pl-40 pt-60">
         <div className="">
           <MyName />

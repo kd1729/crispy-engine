@@ -100,7 +100,7 @@ const MyProjects = [
 export default function Projects() {
   return (
     <div>
-      <NavBar />
+      <NavBar activeSection="Projects"/>
       <div className=" flex flex-col justify-center items-center pt-20">
         <h1 className="text-5xl text-[#F7F7F7] my-8 font-semibold">
           My Projects
