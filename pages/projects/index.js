@@ -109,7 +109,7 @@ export default function Projects() {
           {MyProjects.map((project) => (
             <div
               key={project.name}
-              className="bg-[#D6E4E5] p-4 my-8 flex rounded-xl shadow-[0_10px_40px_-15px_#e9e8ffff] hover:shadow-[0_15px_60px_-15px_#a5a2ddff]"
+              className="bg-[#d1fbf5] p-4 my-8 flex rounded-xl shadow-[0_7px_30px_-15px_#e9e8ffff] hover:shadow-[0_15px_60px_-15px_#a5a2ddff]"
             >
               <div>
                 <Image
