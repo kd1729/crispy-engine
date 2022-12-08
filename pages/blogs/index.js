@@ -1,4 +1,4 @@
-import {AiFillMediumCircle} from "react-icons/ai";
+import { AiFillMediumCircle } from "react-icons/ai";
 import NavBar from "../../components/navbar";
 
 const blogs = [
@@ -71,15 +71,15 @@ export default function Blogs() {
   return (
     <div>
       <NavBar activeSection="Blogs" />
-      <div className=" flex flex-col justify-center items-center pt-20">
-        <h1 className="text-5xl text-[#F7F7F7] my-8 font-semibold">My Blogs</h1>
+      <div className=" flex flex-col justify-center items-center pt-32">
+        <h1 className="text-5xl text-[#F7F7F7] mb-20 font-semibold">My Blogs</h1>
         <div className="grid grid-cols-3 grid-rows-3 gap-x-8 gap-y-8 justify-center items-center px-32">
           {blogs.map((blog) => (
             <div
               key={blog.title}
-              className="flex flex-col justify-center items-center bg-[#d1fbf5] rounded-lg p-4"
+              className="flex flex-col justify-center items-center bg-[#d1fbf5] rounded-lg p-8 text-justify h-[400px] w-[400px]"
             >
-              <h1 className="text-xl text-[#EB6440] my-2 font-semibold">
+              <h1 className="text-xl text-center text-[#EB6440] my-2 font-semibold">
                 {blog.title}
               </h1>
               <h1 className="text-lg text-[#8925a8] my-2 font-semibold">
@@ -92,7 +92,7 @@ export default function Blogs() {
                 href={blog.link}
                 target="_blank"
                 rel="noreferrer"
-                className="text-[#8925a8] my-2 font-semibold hover:underline"
+                className="text-[#8925a8] text-xl my-2 font-semibold hover:underline"
               >
                 Read More
               </a>

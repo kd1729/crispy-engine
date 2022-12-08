@@ -62,8 +62,8 @@ export default function Experience() {
   return (
     <div>
       <NavBar activeSection="Experiences" />
-      <div className=" flex flex-col justify-center items-center pt-28 pb-16">
-        <h1 className="text-5xl text-[#F7F7F7] mb-12 font-semibold">
+      <div className=" flex flex-col justify-center items-center pt-32 px-16">
+        <h1 className="text-5xl text-[#F7F7F7] mb-20 font-semibold">
           My Internships
         </h1>
         <div className="flex flex-col gap-y-16 justify-center items-center">
