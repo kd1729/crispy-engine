@@ -105,7 +105,7 @@ export default function Projects() {
         <h1 className="text-5xl text-[#F7F7F7] my-8 font-semibold">
           My Projects
         </h1>
-        <div className="grid grid-cols-2 grid-rows-3 gap-x-8 justify-center items-center">
+        <div className="grid grid-cols-2 grid-rows-3 gap-x-8 justify-center items-center px-16">
           {MyProjects.map((project) => (
             <div
               key={project.name}

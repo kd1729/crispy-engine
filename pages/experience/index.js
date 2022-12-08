@@ -90,7 +90,7 @@ export default function Experience() {
                 </p>
                 <p>{internship.description}</p>
                 <div className="font-semibold text-lg text-[#6b22b3] hover:underline">
-                  <a href={internship.certificateLink}>Certificate Link</a>
+                  <a href={internship.certificateLink} target="_blank" rel="noreferrer">Certificate Link</a>
                 </div>
               </div>
             </div>
