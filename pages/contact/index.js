@@ -7,7 +7,7 @@ import {
   FaEnvelope,
 } from "react-icons/fa";
 
-import NavBar from "../../components/NavBar";
+import NavBar from "../../components/navbar";
 
 export default function Contact() {
   return (

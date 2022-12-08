@@ -1,6 +1,5 @@
-import { FaMedium } from "react-icons/fa";
 import {AiFillMediumCircle} from "react-icons/ai";
-import NavBar from "../../components/NavBar";
+import NavBar from "../../components/navbar";
 
 const blogs = [
   {
