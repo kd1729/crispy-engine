@@ -1,4 +1,5 @@
 import NavBar from "../../components/navbar";
+import Header from "../../components/Header";
 import MyImage2 from "../../components/MyImage2";
 
 export default function About() {
@@ -6,7 +7,7 @@ export default function About() {
     <div>
       <NavBar activeSection="About" />
       <div className="text-center text-white pt-20 mx-40">
-        <h1 className="text-3xl font-bold">About Me</h1>
+        <Header name="About Me" />
         <p className="text-xl">
           I am currently a final year student pursuing my Bachelors in the field
           of Computer Science and Engineering from VIT Vellore. I belong to

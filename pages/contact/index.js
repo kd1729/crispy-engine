@@ -8,13 +8,14 @@ import {
 } from "react-icons/fa";
 
 import NavBar from "../../components/navbar";
+import Header from "../../components/Header";
 
 export default function Contact() {
   return (
     <div>
       <NavBar activeSection="Contact" />
-      <div className="contact" id="contactme">
-        <h2>Contact Me</h2>
+      <div className="contact flex flex-col justify-center items-center pt-20 px-16">
+        <Header name="Contact Me" />
         <form action="https://formspree.io/f/mqkwgovb" method="POST">
           <input
             name="name"

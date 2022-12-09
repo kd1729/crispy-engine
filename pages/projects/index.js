@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { AiFillGithub } from "react-icons/ai";
 import NavBar from "../../components/navbar";
+import Header from "../../components/Header";
 
 const Width = 8;
 
@@ -102,14 +103,12 @@ export default function Projects() {
     <div>
       <NavBar activeSection="Projects"/>
       <div className=" flex flex-col justify-center items-center pt-20">
-        <h1 className="text-5xl text-[#F7F7F7] my-8 font-semibold">
-          My Projects
-        </h1>
+       <Header name="My Projects" />
         <div className="grid grid-cols-2 grid-rows-3 gap-x-8 justify-center items-center px-16">
           {MyProjects.map((project) => (
             <div
               key={project.name}
-              className="bg-[#d1fbf5] p-4 my-8 flex rounded-xl shadow-[0_20px_40px_-15px_#04022fff] hover:shadow-[0_15px_60px_-15px_#4b4b7dff]"
+              className="bg-[#d1fbf5] p-4 mb-8 flex rounded-xl shadow-[0_20px_40px_-15px_#04022fff] hover:shadow-[0_15px_60px_-15px_#4b4b7dff]"
             >
               <div>
                 <Image

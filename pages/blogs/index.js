@@ -1,5 +1,6 @@
 import { AiFillMediumCircle } from "react-icons/ai";
 import NavBar from "../../components/navbar";
+import Header from "../../components/Header";
 
 const blogs = [
   {
@@ -71,10 +72,8 @@ export default function Blogs() {
   return (
     <div>
       <NavBar activeSection="Blogs" />
-      <div className=" flex flex-col justify-center items-center pt-32">
-        <h1 className="text-5xl text-[#F7F7F7] mb-20 font-semibold">
-          My Blogs
-        </h1>
+      <div className=" flex flex-col justify-center items-center pt-20">
+        <Header name="My Blogs" />
         <div className="grid grid-cols-3 grid-rows-3 gap-12 justify-center items-center px-32">
           {blogs.map((blog) => (
             <div
