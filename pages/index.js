@@ -9,7 +9,7 @@ export default function Home() {
 
     <div>
       <NavBar activeSection="Home" />
-      <div className="bg-[#393E46] pl-40 pt-60">
+      <div className="pl-40 pt-60">
         <div className="">
           <MyName />
           <ResumeDownload />

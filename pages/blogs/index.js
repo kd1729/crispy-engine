@@ -6,7 +6,7 @@ const blogs = [
     title: "My Interview Experience at Ivanti",
     date: "16 Sept, 2022",
     description:
-      "In this article I discussed about my selection process for Ivanti company.",
+      "In this article I discussed about my on-campus selection process for Ivanti company.",
     link: "https://www.geeksforgeeks.org/ivanti-interview-experience-on-campus-2022/",
   },
   {
@@ -72,30 +72,33 @@ export default function Blogs() {
     <div>
       <NavBar activeSection="Blogs" />
       <div className=" flex flex-col justify-center items-center pt-32">
-        <h1 className="text-5xl text-[#F7F7F7] mb-20 font-semibold">My Blogs</h1>
-        <div className="grid grid-cols-3 grid-rows-3 gap-x-8 gap-y-8 justify-center items-center px-32">
+        <h1 className="text-5xl text-[#F7F7F7] mb-20 font-semibold">
+          My Blogs
+        </h1>
+        <div className="grid grid-cols-3 grid-rows-3 gap-12 justify-center items-center px-32">
           {blogs.map((blog) => (
             <div
               key={blog.title}
-              className="flex flex-col justify-center items-center bg-[#d1fbf5] rounded-lg p-8 text-justify h-[400px] w-[400px]"
+              className="flex flex-col justify-center items-center bg-[#d7edf1] rounded-lg  text-justify  
+              shadow-[0_20px_40px_-15px_#04022fff] hover:shadow-[0_15px_60px_-15px_#4b4b7dff] relative pb-4"
             >
-              <h1 className="text-xl text-center text-[#EB6440] my-2 font-semibold">
-                {blog.title}
-              </h1>
-              <h1 className="text-lg text-[#8925a8] my-2 font-semibold">
+              <h1 className="text-[#8925a8] font-medium self-start absolute top-0 left-2 pb-4">
                 {blog.date}
               </h1>
-              <p className="text-[#4054eb] my-2 font-semibold">
-                {blog.description}
+              <h1 className="text-xl text-center text-[#EB6440] pt-8 font-semibold px-4">
+                {blog.title}
+              </h1>
+              <p className="text-[#4054eb] my-2 px-8 font-semibold">
+                {blog.description}...
+                <a
+                  href={blog.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-[#8925a8] text-base my-2 font-semibold hover:underline"
+                >
+                  read more
+                </a>
               </p>
-              <a
-                href={blog.link}
-                target="_blank"
-                rel="noreferrer"
-                className="text-[#8925a8] text-xl my-2 font-semibold hover:underline"
-              >
-                Read More
-              </a>
             </div>
           ))}
         </div>

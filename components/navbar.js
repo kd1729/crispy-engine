@@ -36,7 +36,7 @@ const navigationRoutes = [
 
 function NavBar({ activeSection }) {
   return (
-    <div className=" bg-[#393E46] flex gap-2 w-screen justify-end fixed">
+    <div className="navbar-bgcolor flex gap-2 w-screen justify-end fixed z-10 ">
       {navigationRoutes.map((route) => (
         <Link key={route.name} href={route.path} passHref>
           <div
