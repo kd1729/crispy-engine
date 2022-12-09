@@ -10,7 +10,9 @@ const internships = [
     dateTo: "July 7, 2023",
     description:
       "Excepteur ad minim exercitation culpa laboris. Enim aute eu aliquip laboris culpa nisi aliqua est ut pariatur labore commodo ad sint. Adipisicing excepteur et ea velit sint consectetur ut. Fugiat esse eu Lorem minim duis culpa eiusmod sunt Lorem sint magna anim consequat. Laboris sunt qui magna eu quis amet nisi.",
-    Image: "/ivanti.png",
+    Image: "/internships/ivanti.jpg",
+    onlineImgURL:
+      "https://drive.google.com/file/d/1QJqW_b83osZo05hiL9GzlwU0UgER0KvE/view?usp=share_link",
     certificateLink: "",
   },
   {
@@ -20,7 +22,9 @@ const internships = [
     dateTo: "July 15, 2022",
     description:
       "Magna pariatur commodo dolore laboris. Fugiat irure incididunt aliquip voluptate enim minim sit exercitation eu occaecat veniam fugiat. Excepteur dolore aliquip fugiat do eiusmod exercitation. Tempor ad minim Lorem non labore reprehenderit deserunt irure minim. Dolore in eiusmod consectetur sit labore ipsum nisi duis eiusmod id est aute enim. Eiusmod officia laborum pariatur cupidatat aliqua excepteur. Labore ea velit consectetur fugiat id ullamco cupidatat.",
-    Image: "/walmart.png",
+    Image: "/internships/walmart.jpg",
+    onlineImgURL:
+      "https://drive.google.com/file/d/1QD34IaCr6b6eIw1aXELeLSXr2qFj-TN_/view?usp=share_link",
     certificateLink:
       "https://drive.google.com/file/d/1Dq-nxbHyxTZbP5BU65aSkZpND8Q_biHN/view?usp=sharing",
   },
@@ -31,7 +35,9 @@ const internships = [
     dateTo: "March 3, 2022",
     description:
       "Cillum consequat occaecat enim mollit eu aute laborum fugiat amet in occaecat excepteur magna esse. Voluptate ea mollit laboris non consectetur non Lorem ipsum commodo ut aute. Sit mollit officia duis dolor reprehenderit non labore sit nisi duis aute aute. Nulla irure commodo officia magna laborum nulla sunt cupidatat enim. Aute Lorem ex eu voluptate pariatur ea eiusmod exercitation ipsum Lorem cillum tempor quis ad. Sint qui amet qui aute reprehenderit do ut dolore sit velit eiusmod adipisicing minim.",
-    Image: "/funcbox.png",
+    Image: "/internships/funcbox.jpg",
+    onlineImgURL:
+      "https://drive.google.com/file/d/1Q7J-P7yB1LRoR8pAGE3K_oiulAQVi1C0/view?usp=share_link",
     certificateLink:
       "https://drive.google.com/file/d/1RKqTNh7cKR_tcizgx0my8mEwqyGwluS9/view?usp=sharing",
   },
@@ -42,7 +48,9 @@ const internships = [
     dateTo: "March 31, 2022",
     description:
       "Non cupidatat aliqua pariatur et in non ullamco id minim quis consequat sint. Nostrud incididunt cupidatat et non. Do officia anim consequat magna cupidatat ea commodo do aliqua dolor consequat incididunt. Irure reprehenderit ad elit tempor sunt mollit anim laborum. Ullamco in nulla officia eu veniam commodo consequat. Ex anim ex reprehenderit laborum incididunt laborum.",
-    Image: "/protal.png",
+    Image: "/internships/protal.jpg",
+    onlineImgURL:
+      "https://drive.google.com/file/d/1QAqrQQsLtYNnkuh1yKoCq4YcLtJhs9XL/view?usp=share_link",
     certificateLink:
       "https://drive.google.com/file/d/1tN6N2k4YS40-hC1ZRiLcoN6Yv-jNALGE/view?usp=sharing",
   },
@@ -53,7 +61,9 @@ const internships = [
     dateTo: "June 29, 2020",
     description:
       "Fugiat amet reprehenderit labore pariatur ut. Est reprehenderit id laborum anim elit proident aliqua ad laboris fugiat irure excepteur. Magna sunt in excepteur sunt ut. Ullamco consectetur dolor cupidatat excepteur excepteur ullamco. Est esse aute irure eu non dolor nisi in reprehenderit anim. Enim enim voluptate cupidatat non proident cupidatat officia ipsum magna sint veniam nostrud do.",
-    Image: "/IITK.png",
+    Image: "/internships/IITK.jpg",
+    onlineImgURL:
+      "https://drive.google.com/file/d/1QMrAoPwQE3VZvHmhQKCwD29-tYEsBvM0/view?usp=share_link",
     certificateLink:
       "https://drive.google.com/file/d/1gM4M3Q9on_fDn7F-C17tWoBfI_RM78t3/view?usp=sharing",
   },
@@ -74,7 +84,7 @@ export default function Experience() {
               <Image
                 src={internship.Image}
                 alt={internship.company}
-                width={300}
+                width={400}
                 height={0}
               />
               <div className="flex flex-col justify-center items-start px-8">
@@ -89,7 +99,13 @@ export default function Experience() {
                 </p>
                 <p>{internship.description}</p>
                 <div className="font-semibold text-lg text-[#6b22b3] hover:underline">
-                  <a href={internship.certificateLink} target="_blank" rel="noreferrer">Certificate Link</a>
+                  <a
+                    href={internship.certificateLink}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Certificate Link
+                  </a>
                 </div>
               </div>
             </div>
