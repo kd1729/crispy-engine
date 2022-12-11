@@ -32,7 +32,7 @@ const MyProjects = [
   {
     title: "FaceMask Detector",
     description: "This is my fourth project",
-    tech: "Transfer Learning, Keras, Tensorflow",
+    tech: "Transfer Learning, Keras",
     image: "/projects/facemask.jpg",
     link: "https://github.com/onlykingKD/Face-Mask-Detector",
     date: "Dec-2020",
@@ -64,7 +64,7 @@ const MyProjects = [
   {
     title: "Lottery Smart Contract",
     description: "This is my eigth project",
-    tech: "Solidity, Mocha, Ganache, Truffle",
+    tech: "Solidity, Mocha, Ganache",
     image: "/projects/lottery.png",
     link: "https://github.com/onlykingKD/Lottery-Contract",
     date: "Oct-2022",
@@ -93,22 +93,22 @@ export default function Projects() {
       <NavBar activeSection="Projects"/>
       <div className=" flex flex-col justify-center items-center pt-20">
        <Header name="My Projects" />
-        <div className="grid grid-cols-2 grid-rows-3 gap-x-8 justify-center items-center px-16">
+        <div className="grid grid-cols-2 gap-12 justify-center items-center">
           {MyProjects.map((project) => (
             <div
               key={project.name}
-              className="bg-[#d1fbf5] justify-center items-center p-4 mb-8 flex rounded-xl shadow-[0_20px_40px_-15px_#04022fff] hover:shadow-[0_15px_60px_-15px_#4b4b7dff]"
+              className="bg-[#d1fbf5] justify-center items-center p-2 flex rounded-xl shadow-[0_20px_40px_-15px_#04022fff] hover:shadow-[0_15px_60px_-15px_#4b4b7dff]"
             >
-              <div>
+              <div className="pl-2">
                 <Image
                   src={project.image}
                   alt={project.title}
                   height={0}
-                  width={300}
+                  width={250}
                 />
               </div>
-              <div className="flex flex-col pl-4 justify-center items-center flex-1">
-                <h3 className="font-semibold text-2xl text-[#EB6440]">
+              <div className="flex flex-col justify-center items-center flex-1 pl-2">
+                <h3 className="font-semibold text-xl text-[#EB6440]">
                   {project.title}
                 </h3>
                 <h3 className="font-semibold text-lg text-[#4054eb]">
@@ -120,7 +120,7 @@ export default function Projects() {
                   rel="noreferrer"
                   className="font-semibold text-lg text-[#8925a8] decoration-solid hover:underline"
                 >
-                  <div className="flex justify-center items-center">
+                  <div className="flex justify-center items-center text-base">
                     <span> Github Link</span> <AiFillGithub color="#171515" className="text-2xl ml-1" />
                   </div>
                 </a>
