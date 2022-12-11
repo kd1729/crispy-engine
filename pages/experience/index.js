@@ -7,9 +7,14 @@ const internships = [
     company: "Ivanti",
     position: "SDE Winter Intern",
     dateFrom: "Jan 9, 2023",
-    dateTo: "July 7, 2023",
-    description:
-      "Excepteur ad minim exercitation culpa laboris. Enim aute eu aliquip laboris culpa nisi aliqua est ut pariatur labore commodo ad sint. Adipisicing excepteur et ea velit sint consectetur ut. Fugiat esse eu Lorem minim duis culpa eiusmod sunt Lorem sint magna anim consequat. Laboris sunt qui magna eu quis amet nisi.",
+    dateTo: "In Progress",
+    description: [
+      ["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."],
+      ["Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."],
+      ["Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."],
+      ["Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."],
+    ],
+    
     Image: "/internships/ivanti.jpg",
     onlineImgURL:
       "https://drive.google.com/file/d/1QJqW_b83osZo05hiL9GzlwU0UgER0KvE/view?usp=share_link",
@@ -20,11 +25,12 @@ const internships = [
     position: "SDE Summer Intern",
     dateFrom: "May 17, 2022",
     dateTo: "July 15, 2022",
-    description:
-      "Magna pariatur commodo dolore laboris. Fugiat irure incididunt aliquip voluptate enim minim sit exercitation eu occaecat veniam fugiat. Excepteur dolore aliquip fugiat do eiusmod exercitation. Tempor ad minim Lorem non labore reprehenderit deserunt irure minim. Dolore in eiusmod consectetur sit labore ipsum nisi duis eiusmod id est aute enim. Eiusmod officia laborum pariatur cupidatat aliqua excepteur. Labore ea velit consectetur fugiat id ullamco cupidatat.",
+    description:[
+      ["Developed various analytical live dashboards in tableau which eliminated the need for manual reporting and helped in better decision making."],
+      ["Worked on the integration of Google Secret Manager API in a Big Data project which helped in better security of the data."],
+      ["Learned about various Data Engineering tools like Spark, Kafka, etc. Also learned about various Data Engineering concepts like ETL, Data Pipelines, etc."],
+    ],
     Image: "/internships/walmart.jpg",
-    onlineImgURL:
-      "https://drive.google.com/file/d/1QD34IaCr6b6eIw1aXELeLSXr2qFj-TN_/view?usp=share_link",
     certificateLink:
       "https://drive.google.com/file/d/1Dq-nxbHyxTZbP5BU65aSkZpND8Q_biHN/view?usp=sharing",
   },
@@ -33,11 +39,13 @@ const internships = [
     position: "Frontend Developer",
     dateFrom: "Jan 3, 2022",
     dateTo: "March 3, 2022",
-    description:
-      "Cillum consequat occaecat enim mollit eu aute laborum fugiat amet in occaecat excepteur magna esse. Voluptate ea mollit laboris non consectetur non Lorem ipsum commodo ut aute. Sit mollit officia duis dolor reprehenderit non labore sit nisi duis aute aute. Nulla irure commodo officia magna laborum nulla sunt cupidatat enim. Aute Lorem ex eu voluptate pariatur ea eiusmod exercitation ipsum Lorem cillum tempor quis ad. Sint qui amet qui aute reprehenderit do ut dolore sit velit eiusmod adipisicing minim.",
+    description:[
+      "Worked on creation of Various React Functional Components which were used in the creation of various webpages.",
+      "Worked on the Integration of various APIs in the frontend of the website.",
+      "Created several complicated JS games for primary classes.",
+      "Largely worked on fixing the responsiveness of several react components.",
+    ],
     Image: "/internships/funcbox.jpg",
-    onlineImgURL:
-      "https://drive.google.com/file/d/1Q7J-P7yB1LRoR8pAGE3K_oiulAQVi1C0/view?usp=share_link",
     certificateLink:
       "https://drive.google.com/file/d/1RKqTNh7cKR_tcizgx0my8mEwqyGwluS9/view?usp=sharing",
   },
@@ -46,11 +54,13 @@ const internships = [
     position: "Frontend Developer",
     dateFrom: "Jan 1, 2022",
     dateTo: "March 31, 2022",
-    description:
-      "Non cupidatat aliqua pariatur et in non ullamco id minim quis consequat sint. Nostrud incididunt cupidatat et non. Do officia anim consequat magna cupidatat ea commodo do aliqua dolor consequat incididunt. Irure reprehenderit ad elit tempor sunt mollit anim laborum. Ullamco in nulla officia eu veniam commodo consequat. Ex anim ex reprehenderit laborum incididunt laborum.",
+    description:[
+      "Worked on creation of Various React Functional Components which were used in the creation of various webpages.",
+      "Worked on the Integration of various APIs in the frontend of the website.",
+      "Created several complicated JS games for primary classes.",
+      "Largely worked on fixing the responsiveness of several react components.",
+    ],
     Image: "/internships/protal.jpg",
-    onlineImgURL:
-      "https://drive.google.com/file/d/1QAqrQQsLtYNnkuh1yKoCq4YcLtJhs9XL/view?usp=share_link",
     certificateLink:
       "https://drive.google.com/file/d/1tN6N2k4YS40-hC1ZRiLcoN6Yv-jNALGE/view?usp=sharing",
   },
@@ -60,10 +70,13 @@ const internships = [
     dateFrom: "April 1, 2020",
     dateTo: "June 29, 2020",
     description:
-      "Fugiat amet reprehenderit labore pariatur ut. Est reprehenderit id laborum anim elit proident aliqua ad laboris fugiat irure excepteur. Magna sunt in excepteur sunt ut. Ullamco consectetur dolor cupidatat excepteur excepteur ullamco. Est esse aute irure eu non dolor nisi in reprehenderit anim. Enim enim voluptate cupidatat non proident cupidatat officia ipsum magna sint veniam nostrud do.",
+    [
+      "Completed the project – “Sentiment analysis of tweets using Natural Language Processing",
+      "As part of this project, I had to classify a set of tweets based on their polarity as positive, negative or neutral",
+      "Developed skills such as - various techniques for pre-processing text, text representation using word embeddings, etc",
+      "My performance was rated as “Excellent” by the mentor of the project"
+    ],
     Image: "/internships/IITK.jpg",
-    onlineImgURL:
-      "https://drive.google.com/file/d/1QMrAoPwQE3VZvHmhQKCwD29-tYEsBvM0/view?usp=share_link",
     certificateLink:
       "https://drive.google.com/file/d/1gM4M3Q9on_fDn7F-C17tWoBfI_RM78t3/view?usp=sharing",
   },
@@ -79,13 +92,14 @@ export default function Experience() {
           {internships.map((internship) => (
             <div
               key={internship.name}
-              className="flex flex-row bg-[#d1fbf5] p-8 mx-20 rounded-lg shadow-[0_20px_40px_-15px_#04022fff]"
+              className="flex flex-row bg-[#d1fbf5] p-8 w-[90%] rounded-lg shadow-[0_20px_40px_-15px_#04022fff] justify-center items-center"
             >
               <Image
                 src={internship.Image}
                 alt={internship.company}
-                width={400}
+                width={800}
                 height={0}
+                className="rounded-lg w-72 h-48"
               />
               <div className="flex flex-col justify-center items-start px-8">
                 <h2 className="text-3xl font-semibold text-[#EB6440]">
@@ -97,7 +111,12 @@ export default function Experience() {
                 <p className="font-semibold text-lg text-[#6b22b3]">
                   {internship.dateFrom} - {internship.dateTo}
                 </p>
-                <p>{internship.description}</p>
+                <p>
+                  {internship.description.map((desc) => (
+                    <li key="" className="list-disc list-inside">{desc}</li>
+                  ))}
+
+                </p>
                 <div className="font-semibold text-lg text-[#6b22b3] hover:underline">
                   <a
                     href={internship.certificateLink}

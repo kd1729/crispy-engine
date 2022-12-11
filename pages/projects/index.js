@@ -3,7 +3,6 @@ import { AiFillGithub } from "react-icons/ai";
 import NavBar from "../../components/navbar";
 import Header from "../../components/Header";
 
-
 const MyProjects = [
   {
     title: "TMDB Movie App",
@@ -16,7 +15,7 @@ const MyProjects = [
   {
     title: "MultiUser Todo App",
     description: "This is my second project",
-    tech: "React, Firestore, Firebase Auth",
+    tech: "React, Firestore, Firebase",
     image: "/projects/todoapp.jpg",
     link: "https://github.com/onlykingKD/multiuser_todoApp_from_scratch",
     date: "Nov-2021",
@@ -90,17 +89,18 @@ const MyProjects = [
 export default function Projects() {
   return (
     <div>
-      <NavBar activeSection="Projects"/>
+      <NavBar activeSection="Projects" />
       <div className=" flex flex-col justify-center items-center pt-20">
-       <Header name="My Projects" />
+        <Header name="My Projects" />
         <div className="grid grid-cols-2 gap-12 justify-center items-center">
           {MyProjects.map((project) => (
             <div
               key={project.name}
-              className="bg-[#d1fbf5] justify-center items-center p-2 flex rounded-xl shadow-[0_20px_40px_-15px_#04022fff] hover:shadow-[0_15px_60px_-15px_#4b4b7dff]"
+              className="card w-[28rem] h-[8rem] bg-[#d1fbf5] justify-center items-center p-2 flex rounded-xl shadow-[0_20px_40px_-15px_#04022fff] hover:shadow-[0_15px_60px_-15px_#4b4b7dff]"
             >
               <div className="pl-2">
                 <Image
+                  className="cardimg"
                   src={project.image}
                   alt={project.title}
                   height={0}
@@ -108,10 +108,10 @@ export default function Projects() {
                 />
               </div>
               <div className="flex flex-col justify-center items-center flex-1 pl-2">
-                <h3 className="font-semibold text-xl text-[#EB6440]">
+                <h3 className="font-semibold text-lg text-[#EB6440]">
                   {project.title}
                 </h3>
-                <h3 className="font-semibold text-lg text-[#4054eb]">
+                <h3 className="font-semibold text-[#4054eb]">
                   {project.tech}
                 </h3>
                 <a
@@ -121,7 +121,8 @@ export default function Projects() {
                   className="font-semibold text-lg text-[#8925a8] decoration-solid hover:underline"
                 >
                   <div className="flex justify-center items-center text-base">
-                    <span> Github Link</span> <AiFillGithub color="#171515" className="text-2xl ml-1" />
+                    <span> Github Link</span>{" "}
+                    <AiFillGithub color="#171515" className="text-2xl ml-1" />
                   </div>
                 </a>
                 <h4 className="font-semibold text-lg text-[#4054eb]">
