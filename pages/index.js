@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <NavBar activeSection="Home" />
-      <div className="pl-40 pt-60">
+      <div className="pl-40 pt-[16%]">
         <div className="">
           <div className="">
             <MyName />
