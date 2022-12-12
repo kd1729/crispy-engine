@@ -62,7 +62,7 @@ export default function About() {
         </div>
       </div>
 
-      <hr className="mx-auto border-2 border-white mt-20 w-[80%]" />
+      <hr className="mx-auto border-2 border-white my-20 w-[80%]" />
     </div>
   );
 }
