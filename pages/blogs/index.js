@@ -14,7 +14,7 @@ const blogs = [
     title: "Implementing Upper-Lower Bounds from Scratch",
     date: "April 30, 2022",
     description:
-      "In this article I discussed the implementations of both upper and lower bounds from scratch (using binary search algorithm).",
+      "In this article I discussed the implementations of both upper and lower bounds from scratch.",
     link: "https://medium.com/@kaustubhdwivedi1729/implementing-upper-bound-and-lower-bound-from-binary-search-9595a0a0534",
   },
   {
@@ -39,14 +39,14 @@ const blogs = [
     link: "https://medium.com/@kaustubhdwivedi1729/finding-loop-cycle-in-a-linked-list-96786f64ca77",
   },
   {
-    title: "Beginner's guide to Binary Search !",
+    title: "Beginner's guide to Binary Search",
     date: "Dec 26, 2020",
     description:
       "In this article I discussed about the basics of binary search and its implementation in C++.",
     link: "https://medium.com/student-technical-community-vit-vellore/welcome-to-binary-search-baa38162959a",
   },
   {
-    title: "A Brief Introduction to Reinforcement Learning !",
+    title: "A Brief Introduction to Reinforcement Learning",
     date: "Dec 14, 2020",
     description:
       "In this article I discussed about the basics of reinforcement learning and its types.",
@@ -74,26 +74,26 @@ export default function Blogs() {
       <NavBar activeSection="Blogs" />
       <div className=" flex flex-col justify-center items-center pt-20">
         <Header name="My Blogs" />
-        <div className="grid grid-cols-3 grid-rows-3 gap-12 justify-center items-center px-32">
+        <div className="my-10 grid grid-cols-2 gap-24 justify-center items-center">
           {blogs.map((blog) => (
             <div
               key={blog.title}
-              className="flex flex-col justify-center items-center bg-[#d7edf1] rounded-lg  text-justify  
+              className=" card w-[32rem] h-[12rem] flex flex-col justify-center items-center rounded-lg  text-justify  
               shadow-[0_20px_40px_-15px_#04022fff] hover:shadow-[0_15px_60px_-15px_#4b4b7dff] relative pb-4"
             >
               <h1 className="text-[#8925a8] font-medium self-start absolute top-0 left-2 pb-4">
                 {blog.date}
               </h1>
-              <h1 className="text-xl text-center text-[#EB6440] pt-8 font-semibold px-4">
+              <h1 className=" cardtitle text-xl text-center text-[#EB6440] pt-8 font-semibold px-4">
                 {blog.title}
               </h1>
-              <p className="text-[#4054eb] my-2 px-8 font-semibold">
+              <p className="cardtext text-[#4054eb] my-2 px-8 font-semibold">
                 {blog.description}...
                 <a
                   href={blog.link}
                   target="_blank"
                   rel="noreferrer"
-                  className="text-[#8925a8] text-base my-2 font-semibold hover:underline"
+                  className="text-[#8925a8] text-base font-semibold hover:underline"
                 >
                   read more
                 </a>

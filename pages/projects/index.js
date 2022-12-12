@@ -92,11 +92,11 @@ export default function Projects() {
       <NavBar activeSection="Projects" />
       <div className=" flex flex-col justify-center items-center pt-20">
         <Header name="My Projects" />
-        <div className="mt-10 grid grid-cols-2 gap-20 justify-center items-center">
+        <div className="my-10 grid grid-cols-2 gap-24 justify-center items-center">
           {MyProjects.map((project) => (
             <div
               key={project.name}
-              className="card w-[32rem] h-[8rem] bg-[#d1fbf5] justify-center items-center p-2 flex rounded-xl shadow-[0_20px_40px_-15px_#04022fff] hover:shadow-[0_15px_60px_-15px_#4b4b7dff]"
+              className="card w-[32rem] h-[8rem] justify-center items-center p-2 flex rounded-xl shadow-[0_20px_40px_-15px_#04022fff] hover:shadow-[0_15px_60px_-15px_#4b4b7dff]"
             >
               <div className="pl-2">
                 <Image
@@ -108,7 +108,7 @@ export default function Projects() {
                 />
               </div>
               <div className="flex flex-col justify-center items-center flex-1 pl-2">
-                <h3 className="font-semibold text-lg text-[#EB6440]">
+                <h3 className="cardtitle font-semibold text-lg text-[#EB6440]">
                   {project.title}
                 </h3>
                 <h3 className="whitespace-nowrap font-semibold text-[#4054eb]">
