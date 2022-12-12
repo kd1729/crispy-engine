@@ -8,75 +8,61 @@ export default function About() {
     <div>
       <NavBar activeSection="About" />
 
-      <div className="flex gap-40 px-40 justify-between">
-        <div>
-          <h1 className="text-white pt-20 text-4xl font-semibold">
-            All About Me
-          </h1>
-
-          <div className="text-base text-left text-white pt-20">
-            <p>
-              Hi there! I am a software developer based in Kanpur, India. I am
-              currently a final year student pursuing my Bachelors in the field
-              of Computer Science and Engineering from VIT Vellore.
-            </p>
-            <br />
-            <p>
-              I am a passionate developer who loves to code and develop new
-              projects. I have previously done projects based on Data Science
-              and Natural Language Processing. My passion for coding and
-              development is the very reason why I am currently working on
-              FrontEnd Projects (ReactJS) . I love participating in competitive
-              coding competitions, C++ being the language I am most fluent in.
-            </p>
-            <br />
-            <p>
-              In the forthcoming days I plan to learn Backend, NodeJS being the
-              primary environment and probably basics of Linux and DevOps as
-              well. My immediate goals include becoming a full-stack developer
-              by the end of my final year. Apart from academics, If you are a
-              person who loves to discuss about Football, Chess, F.R.I.E.N.D.S. or
-              Marvel or any random space mystery feel free to hit me up!
-            </p>
-          </div>
+      <div className="px-40">
+        <div className="text-white pt-20 font-semibold">
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
         </div>
 
-        <div className="flex flex-row justify-center items-center w-[80rem] mt-[15%]">
-          <Image
-            className="rounded-full"
-            src="/myimg2.png"
-            alt="Kaustubh Dwivedi"
-            width={400}
-            height={0}
-          />
+        <div className="flex gap-40 justify-between">
+          <div>
+            <h1 className="text-white pt-10 text-4xl font-semibold">
+              All About Me
+            </h1>
+
+            <div className="text-base text-left text-white pt-12">
+              <p>
+                Hi there! I am a software developer based in Kanpur, India. I am
+                currently a final year student pursuing my Bachelors in the
+                field of Computer Science and Engineering from VIT Vellore.
+              </p>
+              <br />
+              <p>
+                I am a passionate developer who loves to code and develop new
+                projects. I have previously done projects based on Data Science
+                and Natural Language Processing. My passion for coding and
+                development is the very reason why I am currently working on
+                FrontEnd Projects (ReactJS) . I love participating in
+                competitive coding competitions, C++ being the language I am
+                most fluent in.
+              </p>
+              <br />
+              <p>
+                In the forthcoming days I plan to learn Backend, NodeJS being
+                the primary environment and probably basics of Linux and DevOps
+                as well. My immediate goals include becoming a full-stack
+                developer by the end of my final year. Apart from academics, If
+                you are a person who loves to discuss about Football, Chess,
+                F.R.I.E.N.D.S. or Marvel or any random space mystery feel free
+                to hit me up!
+              </p>
+            </div>
+          </div>
+
+          <div className="flex flex-row justify-center items-center w-[80rem] mt-[15%]">
+            <Image
+              className="rounded-full"
+              src="/myimg2.png"
+              alt="Kaustubh Dwivedi"
+              width={400}
+              height={0}
+            />
+          </div>
         </div>
       </div>
 
-      {/* <div className="text-center text-white pt-20 mx-40">
-        <Header name="About Me" />
-        <p className="text-xl">
-          I am currently a final year student pursuing my Bachelors in the field
-          of Computer Science and Engineering from VIT Vellore. I belong to
-          Kanpur, Uttar Pradesh. My attitude towards life is very optimistic
-          which encourages me to remain positive even in the worst of
-          situations.{" "}
-        </p>
-        <p className="text-xl">
-          Coming to my skillsets, I have previously done projects based on Data
-          Science and Natural Language Processing. My passion for coding and
-          development is the very reason why I am currently working on FrontEnd
-          Projects (ReactJS) . I love participating in competitive coding
-          competitions, C++ being the language I am most fluent in.
-        </p>
-        <p className="text-xl">
-          In the forthcoming days I plan to learn Backend, NodeJS being the
-          primary environment and probably basics of Linux and DevOps as well.
-          My immediate goals include becoming a full-stack developer by the end
-          of my final year. Apart from academics, If you are a person who loves
-          to discuss about Football, Chess, F.R.I.E.N.D.S. or Marvel or any
-          random space mystery feel free to hit me up!
-        </p>
-      </div> */}
+      <hr className="mx-auto border-2 border-white mt-20 w-[80%]" />
     </div>
   );
 }
