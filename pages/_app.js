@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import '../styles/myname.css'
-import "../styles/aboutme.css"
+import "../styles/myimage.css"
 import "../styles/contactme.css"
 import "../styles/projects.css"
 

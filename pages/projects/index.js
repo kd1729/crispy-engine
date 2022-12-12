@@ -96,7 +96,7 @@ export default function Projects() {
           {MyProjects.map((project) => (
             <div
               key={project.name}
-              className="card w-[28rem] h-[8rem] bg-[#d1fbf5] justify-center items-center p-2 flex rounded-xl shadow-[0_20px_40px_-15px_#04022fff] hover:shadow-[0_15px_60px_-15px_#4b4b7dff]"
+              className="card w-[32rem] h-[8rem] bg-[#d1fbf5] justify-center items-center p-2 flex rounded-xl shadow-[0_20px_40px_-15px_#04022fff] hover:shadow-[0_15px_60px_-15px_#4b4b7dff]"
             >
               <div className="pl-2">
                 <Image
@@ -104,7 +104,7 @@ export default function Projects() {
                   src={project.image}
                   alt={project.title}
                   height={0}
-                  width={250}
+                  width={230}
                 />
               </div>
               <div className="flex flex-col justify-center items-center flex-1 pl-2">
