@@ -92,7 +92,7 @@ export default function Projects() {
       <NavBar activeSection="Projects" />
       <div className=" flex flex-col justify-center items-center pt-20">
         <Header name="My Projects" />
-        <div className="grid grid-cols-2 gap-12 justify-center items-center">
+        <div className="mt-10 grid grid-cols-2 gap-20 justify-center items-center">
           {MyProjects.map((project) => (
             <div
               key={project.name}
@@ -111,7 +111,7 @@ export default function Projects() {
                 <h3 className="font-semibold text-lg text-[#EB6440]">
                   {project.title}
                 </h3>
-                <h3 className="font-semibold text-[#4054eb]">
+                <h3 className="whitespace-nowrap font-semibold text-[#4054eb]">
                   {project.tech}
                 </h3>
                 <a
