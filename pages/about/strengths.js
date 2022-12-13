@@ -1,5 +1,5 @@
 import NavBar from "../../components/NavBar";
-import AboutMeNavbar from "../../components/AboutmeNavbar";
+import AboutMeNavbar from "../../components/AboutMeNavbar";
 
 const myStrengths = [
   {
