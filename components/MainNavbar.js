@@ -19,12 +19,12 @@ const navigationRoutes = [
   {
     name: "Experiences",
     path: "/experience",
-    width: "w-24",
+    width: "w-28",
   },
   {
     name: "Blogs",
     path: "/blogs",
-    width: "w-10",
+    width: "w-8",
   },
   {
     name: "Contact",
