@@ -1,7 +1,6 @@
 import NavBar from "../../components/navbar";
-import Header from "../../components/Header";
+import AboutMeNavbar from "../../components/AboutmeNavbar";
 import Image from "next/image";
-// import MyImage2 from "../../components/MyImage2";
 
 export default function About() {
   return (
@@ -9,11 +8,7 @@ export default function About() {
       <NavBar activeSection="About" />
 
       <div className="px-40">
-        <div className="text-white pt-20 font-semibold">
-          <span>1</span>
-          <span>2</span>
-          <span>3</span>
-        </div>
+        <AboutMeNavbar activeSection="AboutMe" />
 
         <div className="flex gap-40 justify-between">
           <div>
@@ -21,7 +16,7 @@ export default function About() {
               All About Me
             </h1>
 
-            <div className="text-base text-left text-white pt-12">
+            <div className="text-xl text-left text-white pt-12">
               <p>
                 Hi there! I am a software developer based in Kanpur, India. I am
                 currently a final year student pursuing my Bachelors in the
@@ -50,7 +45,7 @@ export default function About() {
             </div>
           </div>
 
-          <div className="flex flex-row justify-center items-center w-[80rem] mt-[15%]">
+          <div className="flex flex-row justify-center items-center w-[80rem] mt-[10%]">
             <Image
               className="rounded-full"
               src="/myimg2.png"

@@ -1,4 +1,5 @@
 import NavBar from "../../components/navbar";
+import AboutMeNavbar from "../../components/AboutmeNavbar";
 
 const mySkills = [
   {
@@ -21,8 +22,8 @@ const mySkills = [
         level: 50,
       },
       {
-        name: "Bootstrap",
-        level: 50,
+        name: "React Native",
+        level: 40,
       },
     ],
   },
@@ -55,7 +56,7 @@ const mySkills = [
     name: "Languages",
     skills: [
       {
-        name: "C++",
+        name: "C/C++",
         level: 90,
       },
       {
@@ -68,11 +69,11 @@ const mySkills = [
       },
       {
         name: "JavaScript",
-        level: 70,
+        level: 60,
       },
       {
-        name: "C",
-        level: 60,
+        name: "Solidity",
+        level: 50,
       },
     ],
   },
@@ -128,17 +129,14 @@ export default function Skills() {
   return (
     <div>
       <NavBar activeSection="About" />
-      <div className="px-40">
-        <div className="text-white pt-20 font-semibold">
-          <span>1</span>
-          <span>2</span>
-          <span>3</span>
-        </div>
 
-        <div className="flex flex-col gap-20 justify-between">
+      <div className="px-40">
+        <AboutMeNavbar activeSection="Skills" />
+
+        <div className="flex flex-col gap-20 justify-center items-center">
           <h1 className="text-white pt-10 text-4xl font-semibold">My Skills</h1>
 
-          <ol className="grid grid-cols-3 gap-20">
+          <ol className="grid grid-cols-3 gap-x-40 gap-y-20">
             {mySkills.map((skill) => (
               <div key={skill.name} className="flex flex-col gap-5">
                 <li type="A" className="text-white text-2xl font-semibold">
@@ -146,7 +144,7 @@ export default function Skills() {
                 </li>
                 <ol className="flex flex-col gap-2">
                   {skill.skills.map((skill) => (
-                    <div key={skill.name} className="flex gap-5">
+                    <div key={skill.name} className="flex gap-5 justify-start items-center">
                       <li type="i" className="text-white text-lg font-semibold">
                         {skill.name}
                       </li>

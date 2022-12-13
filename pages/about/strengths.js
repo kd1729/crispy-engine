@@ -1,4 +1,5 @@
 import NavBar from "../../components/NavBar";
+import AboutMeNavbar from "../../components/AboutmeNavbar";
 
 const myStrengths = [
   {
@@ -31,14 +32,11 @@ export default function strengths() {
   return (
     <div>
       <NavBar activeSection="About" />
-      <div className="px-40">
-        <div className="text-white pt-20 font-semibold">
-          <span>1</span>
-          <span>2</span>
-          <span>3</span>
-        </div>
 
-        <div className="flex flex-col gap-20 justify-between">
+      <div className="px-40">
+        <AboutMeNavbar activeSection="Strengths" />
+
+        <div className="flex flex-col gap-20 justify-between items-center">
           <h1 className="text-white pt-10 text-4xl font-semibold">
             My Gallup Strengths
           </h1>
