@@ -55,4 +55,4 @@ function MainNavbar({ activeSection }) {
   );
 }
 
-export default NavBar;
+export default MainNavbar;

@@ -1,5 +1,5 @@
 import MainNavbar from "../../components/MainNavbar.js";
-import AboutMeNavbar from "../../components/AboutMeNavbar";
+import InnerNavbar from "../../components/InnerNavbar.js";
 import Image from "next/image";
 
 export default function About() {
@@ -8,7 +8,7 @@ export default function About() {
       <MainNavbar activeSection="About" />
 
       <div className="px-40">
-        <AboutMeNavbar activeSection="About Me" />
+        <InnerNavbar activeSection="About Me" />
 
         <div className="flex gap-40 justify-between">
           <div>

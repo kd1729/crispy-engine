@@ -1,5 +1,5 @@
 import MainNavbar from "../../components/MainNavbar.js";
-import AboutMeNavbar from "../../components/AboutMeNavbar";
+import InnerNavbar from "../../components/InnerNavbar.js";
 
 const myAchievements = [[], [], [], []];
 
@@ -9,7 +9,7 @@ export default function Achievements() {
       <MainNavbar activeSection="About" />
 
       <div className="px-40">
-        <AboutMeNavbar activeSection="Achievements" />
+        <InnerNavbar activeSection="Achievements" />
 
         <div className="flex flex-col gap-20 justify-between items-center">
           <h1 className="text-white pt-10 text-4xl font-semibold">

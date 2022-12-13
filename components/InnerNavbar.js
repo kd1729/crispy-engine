@@ -19,7 +19,7 @@ const navigationRoutes = [
   },
 ];
 
-export default function AboutMeNavbar({ activeSection }) {
+export default function InnerNavbar({ activeSection }) {
   return (
     <div className="flex text-white pt-20 font-semibold">
       {navigationRoutes.map((route) => (
