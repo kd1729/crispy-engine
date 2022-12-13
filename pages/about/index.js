@@ -1,5 +1,5 @@
-import NavBar from "../../components/navbar";
-import AboutMeNavbar from "../../components/AboutmeNavbar";
+import NavBar from "../../components/NavBar";
+import AboutMeNavbar from "../../components/AboutMeNavbar";
 import Image from "next/image";
 
 export default function About() {

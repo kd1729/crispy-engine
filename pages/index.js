@@ -1,4 +1,4 @@
-import NavBar from "../components/navbar.js";
+import NavBar from "../components/NavBar.js";
 import MyImage2 from "../components/MyImage2.js";
 import MyName from "../components/MyName.js";
 import ResumeDownload from "../components/ResumeDownload.js";

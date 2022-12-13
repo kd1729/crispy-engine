@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { AiFillGithub } from "react-icons/ai";
-import NavBar from "../../components/navbar";
+import NavBar from "../../components/NavBar";
 import Header from "../../components/Header";
 
 const MyProjects = [

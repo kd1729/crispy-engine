@@ -1,5 +1,5 @@
 import { AiFillMediumCircle } from "react-icons/ai";
-import NavBar from "../../components/navbar";
+import NavBar from "../../components/NavBar";
 import Header from "../../components/Header";
 
 const blogs = [
