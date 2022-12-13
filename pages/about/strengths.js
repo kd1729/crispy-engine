@@ -1,4 +1,4 @@
-import NavBar from "../../components/NavBar";
+import MainNavbar from "../../components/MainNavbar.js";
 import AboutMeNavbar from "../../components/AboutMeNavbar";
 
 const myStrengths = [
@@ -31,7 +31,7 @@ const myStrengths = [
 export default function strengths() {
   return (
     <div>
-      <NavBar activeSection="About" />
+      <MainNavbar activeSection="About" />
 
       <div className="px-40">
         <AboutMeNavbar activeSection="Strengths" />

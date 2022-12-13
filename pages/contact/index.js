@@ -7,13 +7,13 @@ import {
   FaEnvelope,
 } from "react-icons/fa";
 
-import NavBar from "../../components/NavBar";
+import MainNavbar from "../../components/MainNavbar.js";
 import Header from "../../components/Header";
 
 export default function Contact() {
   return (
     <div>
-      <NavBar activeSection="Contact" />
+      <MainNavbar activeSection="Contact" />
       <div className="contact flex flex-col justify-center items-center pt-20 px-16">
         <Header name="Contact Me" />
         <form action="https://formspree.io/f/mqkwgovb" method="POST">

@@ -33,7 +33,7 @@ const navigationRoutes = [
   },
 ];
 
-function NavBar({ activeSection }) {
+function MainNavbar({ activeSection }) {
   return (
     <div className="navbar-bgcolor flex gap-2 w-screen justify-end fixed z-10 ">
       {navigationRoutes.map((route) => (

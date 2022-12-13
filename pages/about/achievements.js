@@ -1,4 +1,4 @@
-import NavBar from "../../components/NavBar";
+import MainNavbar from "../../components/MainNavbar.js";
 import AboutMeNavbar from "../../components/AboutMeNavbar";
 
 const myAchievements = [[], [], [], []];
@@ -6,7 +6,7 @@ const myAchievements = [[], [], [], []];
 export default function Achievements() {
   return (
     <div>
-      <NavBar activeSection="About" />
+      <MainNavbar activeSection="About" />
 
       <div className="px-40">
         <AboutMeNavbar activeSection="Achievements" />

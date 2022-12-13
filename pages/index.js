@@ -1,4 +1,4 @@
-import NavBar from "../components/NavBar.js";
+import MainNavbar from "../components/MainNavbar.js";
 import MyImage2 from "../components/MyImage2.js";
 import MyName from "../components/MyName.js";
 import ResumeDownload from "../components/ResumeDownload.js";
@@ -7,7 +7,7 @@ import LinkedinButton from "../components/LinkedinButton.js";
 export default function Home() {
   return (
     <div>
-      <NavBar activeSection="Home" />
+      <MainNavbar activeSection="Home" />
       <div className="pl-40 pt-[16%]">
         <div className="">
           <div className="">

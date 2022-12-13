@@ -1,11 +1,11 @@
-import NavBar from "../../components/NavBar";
+import MainNavbar from "../../components/MainNavbar.js";
 import AboutMeNavbar from "../../components/AboutMeNavbar";
 import Image from "next/image";
 
 export default function About() {
   return (
     <div>
-      <NavBar activeSection="About" />
+      <MainNavbar activeSection="About" />
 
       <div className="px-40">
         <AboutMeNavbar activeSection="About Me" />

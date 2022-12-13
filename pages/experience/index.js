@@ -1,4 +1,4 @@
-import NavBar from "../../components/NavBar";
+import MainNavbar from "../../components/MainNavbar.js";
 import Header from "../../components/Header";
 import Image from "next/image";
 
@@ -85,7 +85,7 @@ const internships = [
 export default function Experience() {
   return (
     <div>
-      <NavBar activeSection="Experiences" />
+      <MainNavbar activeSection="Experiences" />
       <div className=" flex flex-col justify-center items-center pt-20 px-16">
         <Header name="My Experiences" />
         <div className="flex flex-col gap-y-16 justify-center items-center">

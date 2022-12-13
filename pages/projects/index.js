@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { AiFillGithub } from "react-icons/ai";
-import NavBar from "../../components/NavBar";
+import MainNavbar from "../../components/MainNavbar.js";
 import Header from "../../components/Header";
 
 const MyProjects = [
@@ -89,7 +89,7 @@ const MyProjects = [
 export default function Projects() {
   return (
     <div>
-      <NavBar activeSection="Projects" />
+      <MainNavbar activeSection="Projects" />
       <div className=" flex flex-col justify-center items-center pt-20">
         <Header name="My Projects" />
         <div className="my-10 grid grid-cols-2 gap-24 justify-center items-center">

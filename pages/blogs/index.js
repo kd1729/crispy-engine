@@ -1,5 +1,5 @@
 import { AiFillMediumCircle } from "react-icons/ai";
-import NavBar from "../../components/NavBar";
+import MainNavbar from "../../components/MainNavbar.js";
 import Header from "../../components/Header";
 
 const blogs = [
@@ -71,7 +71,7 @@ const blogs = [
 export default function Blogs() {
   return (
     <div>
-      <NavBar activeSection="Blogs" />
+      <MainNavbar activeSection="Blogs" />
       <div className=" flex flex-col justify-center items-center pt-20">
         <Header name="My Blogs" />
         <div className="my-10 grid grid-cols-2 gap-24 justify-center items-center">
