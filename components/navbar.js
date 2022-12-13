@@ -42,8 +42,8 @@ function NavBar({ activeSection }) {
           <div
             className={
               [route.name === activeSection
-                ? "text-[#ff2424] underline underline-offset-4 m-4"
-                : "text-white", "text-lg m-4 hover:text-[#f06c60]"].join(" ")
+                ? "text-[#ff2424] underline underline-offset-4": "text-white",
+                 "text-2xl m-8 hover:text-[#f06c60]"].join(" ")
             }
           >
             <div className= { [route.width, "font-semibold ease-in-out duration-300"].join(" ")}>

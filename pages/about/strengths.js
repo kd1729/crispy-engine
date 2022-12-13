@@ -44,10 +44,10 @@ export default function strengths() {
           <ol className="grid grid-cols-3 gap-20">
             {myStrengths.map((strength) => (
               <li key={strength.name} className="flex flex-col gap-5">
-                <div className="text-white text-2xl font-semibold">
+                <div className="text-white text-3xl font-semibold">
                   {strength.name}
                 </div>
-                <div className="text-white text-lg font-semibold">
+                <div className="text-white text-xl font-semibold">
                   {strength.desc}
                 </div>
               </li>

@@ -12,11 +12,11 @@ export default function About() {
 
         <div className="flex gap-40 justify-between">
           <div>
-            <h1 className="text-white pt-10 text-4xl font-semibold">
+            <h1 className="text-white pt-10 text-4xl font-semibold text-center">
               All About Me
             </h1>
 
-            <div className="text-xl text-left text-white pt-12">
+            <div className="text-2xl text-left text-white pt-12">
               <p>
                 Hi there! I am a software developer based in Kanpur, India. I am
                 currently a final year student pursuing my Bachelors in the
@@ -37,10 +37,13 @@ export default function About() {
                 In the forthcoming days I plan to learn Backend, NodeJS being
                 the primary environment and probably basics of Linux and DevOps
                 as well. My immediate goals include becoming a full-stack
-                developer by the end of my final year. Apart from academics, If
-                you are a person who loves to discuss about Football, Chess,
-                F.R.I.E.N.D.S. or Marvel or any random space mystery feel free
-                to hit me up!
+                developer by the end of my final year.
+              </p>
+              <br />
+              <p>
+                Apart from academics, If you are a person who loves to discuss
+                about Football, Chess, F.R.I.E.N.D.S. or Marvel or any random
+                space mystery feel free to hit me up!
               </p>
             </div>
           </div>

@@ -139,13 +139,13 @@ export default function Skills() {
           <ol className="grid grid-cols-3 gap-x-40 gap-y-20">
             {mySkills.map((skill) => (
               <div key={skill.name} className="flex flex-col gap-5">
-                <li type="A" className="text-white text-2xl font-semibold">
+                <li type="A" className="text-white text-3xl font-semibold">
                   {skill.name}
                 </li>
                 <ol className="flex flex-col gap-2">
                   {skill.skills.map((skill) => (
                     <div key={skill.name} className="flex gap-5 justify-start items-center">
-                      <li type="i" className="text-white text-lg font-semibold">
+                      <li type="i" className="text-white text-xl font-semibold">
                         {skill.name}
                       </li>
                       <div>

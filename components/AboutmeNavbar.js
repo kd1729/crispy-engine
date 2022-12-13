@@ -27,9 +27,8 @@ export default function AboutMeNavbar({ activeSection }) {
           <div
             className={[
               route.name === activeSection
-                ? "text-[#2bff00] underline underline-offset-4 m-4"
-                : "text-white",
-              "text-lg m-4 hover:text-[#60f08b]",
+                ? "text-[#2bff00] underline underline-offset-4" : "text-white",
+                  "text-xl m-4 hover:text-[#60f08b]",
             ].join(" ")}
           >
             <div className="font-semibold ease-in-out duration-300">
