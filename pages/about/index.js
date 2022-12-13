@@ -8,7 +8,7 @@ export default function About() {
       <NavBar activeSection="About" />
 
       <div className="px-40">
-        <AboutMeNavbar activeSection="AboutMe" />
+        <AboutMeNavbar activeSection="About Me" />
 
         <div className="flex gap-40 justify-between">
           <div>

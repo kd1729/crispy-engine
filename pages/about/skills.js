@@ -73,7 +73,7 @@ const mySkills = [
       },
       {
         name: "Solidity",
-        level: 50,
+        level: 40,
       },
     ],
   },

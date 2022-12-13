@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const navigationRoutes = [
   {
-    name: "AboutMe",
+    name: "About Me",
     path: "/about",
   },
   {
