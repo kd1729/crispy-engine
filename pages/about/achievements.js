@@ -12,7 +12,7 @@ export default function Achievements() {
         <InnerNavbar activeSection="Achievements" />
 
         <div className="flex flex-col gap-20 justify-between items-center">
-          <h1 className="text-white pt-10 text-4xl font-semibold">
+          <h1 className="text-white pt-10 text-5xl font-semibold">
             My Achievements
           </h1>
         </div>

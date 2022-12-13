@@ -110,10 +110,6 @@ const mySkills = [
         level: 70,
       },
       {
-        name: "Competitive Coding",
-        level: 60,
-      },
-      {
         name: "Linux",
         level: 50,
       },
@@ -134,24 +130,24 @@ export default function Skills() {
         <InnerNavbar activeSection="Skills" />
 
         <div className="flex flex-col gap-20 justify-center items-center">
-          <h1 className="text-white pt-10 text-4xl font-semibold">My Skills</h1>
+          <h1 className="text-[white] pt-10 text-5xl font-semibold">My Skills</h1>
 
           <ol className="grid grid-cols-3 gap-x-40 gap-y-20">
             {mySkills.map((skill) => (
               <div key={skill.name} className="flex flex-col gap-5">
-                <li type="A" className="text-white text-3xl font-semibold">
+                <li type="A" className="text-[#96ffae] text-3xl font-semibold">
                   {skill.name}
                 </li>
                 <ol className="flex flex-col gap-2">
                   {skill.skills.map((skill) => (
                     <div key={skill.name} className="flex gap-5 justify-start items-center">
-                      <li type="i" className="text-white text-xl font-semibold">
+                      <li type="i" className="text-[#c7ebff] text-xl font-semibold">
                         {skill.name}
                       </li>
                       <div>
                         <div className="flex gap-1">
                           {[...Array(skill.level / 10)].map((_, i) => (
-                            <div key={i} className="w-2 h-2 bg-white"></div>
+                            <div key={i} className="w-2 h-2 bg-[#f6f46e]"></div>
                           ))}
                         </div>
                       </div>

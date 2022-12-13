@@ -12,11 +12,11 @@ export default function About() {
 
         <div className="flex gap-40 justify-between">
           <div>
-            <h1 className="text-white pt-10 text-4xl font-semibold text-center">
+            <h1 className="text-white pt-10 text-5xl font-semibold text-center">
               All About Me
             </h1>
 
-            <div className="text-2xl text-left text-white pt-12">
+            <div className="text-2xl text-justify text-[#c5f6fe] pt-12">
               <p>
                 Hi there! I am a software developer based in Kanpur, India. I am
                 currently a final year student pursuing my Bachelors in the

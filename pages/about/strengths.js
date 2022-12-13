@@ -37,17 +37,17 @@ export default function strengths() {
         <InnerNavbar activeSection="Strengths" />
 
         <div className="flex flex-col gap-20 justify-between items-center">
-          <h1 className="text-white pt-10 text-4xl font-semibold">
+          <h1 className="text-white pt-10 text-5xl font-semibold">
             My Gallup Strengths
           </h1>
 
           <ol className="grid grid-cols-3 gap-20">
             {myStrengths.map((strength) => (
               <li key={strength.name} className="flex flex-col gap-5">
-                <div className="text-white text-3xl font-semibold">
+                <div className="text-[#96ffae] text-3xl font-semibold">
                   {strength.name}
                 </div>
-                <div className="text-white text-xl font-semibold">
+                <div className="text-[#c7ebff] text-xl font-semibold">
                   {strength.desc}
                 </div>
               </li>
