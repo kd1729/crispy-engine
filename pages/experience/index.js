@@ -86,13 +86,13 @@ export default function Experience() {
   return (
     <div>
       <MainNavbar activeSection="Experiences" />
-      <div className=" flex flex-col justify-center items-center pt-20 px-16">
+      <div className=" flex flex-col justify-center items-center pt-20 sm:px-16 px-8 pb-8">
         <Header name="My Experiences" />
         <div className="flex flex-col gap-y-16 justify-center items-center">
           {internships.map((internship) => (
             <div
               key={internship.name}
-              className="flex flex-row bg-[#d1fbf5] p-8 w-[90%] rounded-lg shadow-[0_20px_40px_-15px_#04022fff] justify-center items-center"
+              className="flex sm:flex-row flex-col bg-[#d1fbf5] sm:p-8 p-4 sm:w-[90%] rounded-lg shadow-[0_20px_40px_-15px_#04022fff] justify-center items-center"
             >
               <Image
                 src={internship.Image}
@@ -101,19 +101,19 @@ export default function Experience() {
                 height={0}
                 className="rounded-lg w-72 h-48"
               />
-              <div className="flex flex-col justify-center items-start px-8">
-                <h2 className="text-3xl font-semibold text-[#EB6440]">
+              <div className="flex flex-col justify-center items-start sm:px-8">
+                <h2 className="sm:text-3xl text-2xl font-semibold text-[#EB6440] sm:pt-0 pt-4">
                   {internship.company}
                 </h2>
-                <h3 className="font-semibold text-xl text-[#4054eb]">
+                <h3 className="font-semibold sm:text-xl text-lg text-[#4054eb]">
                   {internship.position}
                 </h3>
-                <p className="font-semibold text-lg text-[#6b22b3]">
+                <p className="font-semibold sm:text-lg text-base text-[#6b22b3]">
                   {internship.dateFrom} - {internship.dateTo}
                 </p>
                 <p>
                   {internship.description.map((desc) => (
-                    <li key="" className="list-disc list-inside">{desc}</li>
+                    <li key="" className="list-disc list-inside text-justify">{desc}</li>
                   ))}
 
                 </p>
