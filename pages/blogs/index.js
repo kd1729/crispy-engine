@@ -74,20 +74,20 @@ export default function Blogs() {
       <MainNavbar activeSection="Blogs" />
       <div className=" flex flex-col justify-center items-center pt-20">
         <Header name="My Blogs" />
-        <div className="my-10 grid grid-cols-2 gap-24 justify-center items-center">
+        <div className="sm:my-10 my-6 grid sm:grid-cols-2 grid-cols-1 sm:gap-24 gap-12 justify-center items-center">
           {blogs.map((blog) => (
             <div
               key={blog.title}
-              className=" card w-[32rem] h-[12rem] flex flex-col justify-center items-center rounded-lg  text-justify  
+              className=" card sm:w-[32rem] w-[20rem] h-[12rem] flex flex-col justify-center items-center rounded-lg  text-justify  
               shadow-[0_20px_40px_-15px_#04022fff] hover:shadow-[0_15px_60px_-15px_#4b4b7dff] relative pb-4"
             >
               <h1 className="text-[#8925a8] font-medium self-start absolute top-0 left-2 pb-4">
                 {blog.date}
               </h1>
-              <h1 className=" cardtitle text-xl text-center text-[#EB6440] pt-8 font-semibold px-4">
+              <h1 className=" cardtitle sm:text-xl text-lg text-center text-[#EB6440] pt-8 font-semibold px-4">
                 {blog.title}
               </h1>
-              <p className="cardtext text-[#4054eb] my-2 px-8 font-semibold">
+              <p className="cardtext text-[#4054eb] my-2 sm:px-8 px-4 font-semibold">
                 {blog.description}...
                 <a
                   href={blog.link}
@@ -101,7 +101,7 @@ export default function Blogs() {
             </div>
           ))}
         </div>
-        <div className="text-white text-3xl my-12 flex justify-center items-center">
+        <div className="text-white sm:text-3xl text-2xl sm:px-0 px-6 sm:my-12 my-4 flex justify-center items-center">
           <div>Check out my Medium for all blogs.</div>
           <a
             href="github.com/onlykingKD"
