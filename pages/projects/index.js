@@ -92,11 +92,11 @@ export default function Projects() {
       <MainNavbar activeSection="Projects" />
       <div className=" flex flex-col justify-center items-center pt-20">
         <Header name="My Projects" />
-        <div className="my-10 grid grid-cols-2 gap-24 justify-center items-center">
+        <div className="my-10 grid grid-cols-1 sm:grid-cols-2 sm:gap-24 gap-12 justify-center items-center">
           {MyProjects.map((project) => (
             <div
               key={project.name}
-              className="card w-[32rem] h-[8rem] justify-center items-center p-2 flex rounded-xl shadow-[0_20px_40px_-15px_#04022fff] hover:shadow-[0_15px_60px_-15px_#4b4b7dff]"
+              className="card sm:w-[32rem] sm:h-[8rem] w-[16rem] justify-center items-center p-2 flex sm:flex-row flex-col rounded-xl shadow-[0_20px_40px_-15px_#04022fff] hover:shadow-[0_15px_60px_-15px_#4b4b7dff]"
             >
               <div className="pl-2">
                 <Image
@@ -133,7 +133,7 @@ export default function Projects() {
             </div>
           ))}
         </div>
-        <div className="text-white text-3xl my-12 flex justify-center items-center">
+        <div className="text-white sm:text-3xl text-2xl sm:px-0 px-4 my-12 flex justify-center items-center">
           <div>Check out my Github for more projects.</div>
           <a
             href="github.com/onlykingKD"
