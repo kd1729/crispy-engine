@@ -126,22 +126,22 @@ export default function Skills() {
     <div>
       <MainNavbar activeSection="About" />
 
-      <div className="px-40">
+      <div className="sm:px-40 px-10">
         <InnerNavbar activeSection="Skills" />
 
-        <div className="flex flex-col gap-20 justify-center items-center">
-          <h1 className="text-[white] pt-10 text-5xl font-semibold">My Skills</h1>
+        <div className="flex flex-col sm:gap-20 gap-10 justify-center items-center">
+          <h1 className="text-[white] pt-10 sm:text-5xl text-3xl font-semibold">My Skills</h1>
 
-          <ol className="grid grid-cols-3 gap-x-40 gap-y-20">
+          <ol className="grid sm:grid-cols-3 grid-cols-1 sm:gap-x-40 sm:gap-y-20 gap-y-12">
             {mySkills.map((skill) => (
               <div key={skill.name} className="flex flex-col gap-5">
-                <li type="A" className="text-[#96ffae] text-3xl font-semibold">
+                <li type="A" className="text-[#96ffae] sm:text-3xl text-xl font-semibold">
                   {skill.name}
                 </li>
                 <ol className="flex flex-col gap-2">
                   {skill.skills.map((skill) => (
                     <div key={skill.name} className="flex gap-5 justify-start items-center">
-                      <li type="i" className="text-[#c7ebff] text-xl font-semibold">
+                      <li type="i" className="text-[#c7ebff] sm:text-xl text-lg font-semibold">
                         {skill.name}
                       </li>
                       <div>
@@ -159,7 +159,7 @@ export default function Skills() {
           </ol>
         </div>
       </div>
-      <hr className="mx-auto border-2 border-white my-20 w-[80%]" />
+      <hr className="mx-auto border-2 border-white sm:my-20 my-10 w-[80%]" />
     </div>
   );
 }

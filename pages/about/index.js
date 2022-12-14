@@ -7,16 +7,16 @@ export default function About() {
     <div>
       <MainNavbar activeSection="About" />
 
-      <div className="px-40">
+      <div className="sm:px-40 px-10">
         <InnerNavbar activeSection="About Me" />
 
         <div className="flex gap-40 justify-between">
           <div>
-            <h1 className="text-white pt-10 text-5xl font-semibold text-center">
+            <h1 className="text-white pt-10 sm:text-5xl text-3xl font-semibold text-center">
               All About Me
             </h1>
 
-            <div className="text-2xl text-justify text-[#c5f6fe] pt-12">
+            <div className="sm:text-2xl text-xl text-justify text-[#c5f6fe] pt-12">
               <p>
                 Hi there! I am a software developer based in Kanpur, India. I am
                 currently a final year student pursuing my Bachelors in the
@@ -48,7 +48,7 @@ export default function About() {
             </div>
           </div>
 
-          <div className="flex flex-row justify-center items-center w-[80rem] mt-[10%]">
+          <div className="flex-row justify-center items-center w-[80rem] mt-[10%] sm:block hidden">
             <Image
               className="rounded-full"
               src="/myimg2.png"
@@ -60,7 +60,7 @@ export default function About() {
         </div>
       </div>
 
-      <hr className="mx-auto border-2 border-white my-20 w-[80%]" />
+      <hr className="mx-auto border-2 border-white sm:my-20 my-10 w-[80%]" />
     </div>
   );
 }
