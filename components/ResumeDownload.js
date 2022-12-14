@@ -1,7 +1,7 @@
 export default function ResumeDownload() {
   return (
     <div
-      className="flex flex-row justify-center mt-20 ml-80 w-max text-lg bg-white px-5 py-3 rounded-lg text-emerald-700 font-bold
+      className="justify-center text-lg bg-white px-5 py-3 rounded-lg text-emerald-700 font-bold
                 hover:shadow-[0_10px_20px_-15px_#ffffffff] shadow-[0_10px_20px_-15px_#000000ff]
                 ease-in-out duration-300
                hover:cursor-pointer hover:text-emerald-600

@@ -51,3 +51,45 @@ wrapper {
     left: 0;
   }
 }
+
+/* Media Query for Mobile */
+
+@media (max-width: 640px) {
+
+  .wrapper .static-txt {
+    font-size: 30px;
+  }
+  .wrapper .dynamic-txts {
+    margin-left: 5px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .dynamic-txts li {
+    font-size: 33px;
+    animation: slide 12s steps(4) infinite;
+  }
+  @keyframes slide {
+    100% {
+      top: -240px;
+    }
+  }
+  .dynamic-txts li span {
+    margin-left: 10px;
+    line-height: 55px;
+  }
+  .dynamic-txts li span::after {
+    height: 130%;
+    width: 100%;
+  }
+  @keyframes typing {
+    40%,
+    60% {
+      left: calc(100% + 30px);
+    }
+    100% {
+      left: 0;
+    }
+  }
+  
+
+}

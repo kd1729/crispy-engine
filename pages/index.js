@@ -8,17 +8,19 @@ export default function Home() {
   return (
     <div>
       <MainNavbar activeSection="Home" />
-      <div className="pl-40 pt-[16%]">
+      <div className="sm:pl-40 pl-10 sm:pt-80 pt-40">
         <div className="">
           <div className="">
             <MyName />
           </div>
-          <div className="flex">
+          <div className="flex sm:flex-row flex-col mt-20 sm:gap-80 gap-10 w-max">
             <LinkedinButton />
             <ResumeDownload />
           </div>
         </div>
-        <MyImage2 />
+        <div className="sm:block hidden">
+          <MyImage2 />
+        </div>
       </div>
     </div>
   );
