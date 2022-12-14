@@ -35,14 +35,14 @@ const navigationRoutes = [
 
 function MainNavbar({ activeSection }) {
   return (
-    <div className="navbar-bgcolor flex gap-2 w-screen justify-center fixed z-10 ">
+    <div className="navbar-bgcolor sm:flex grid grid-cols-3 gap-2 w-screen justify-center fixed z-10 ">
       {navigationRoutes.map((route) => (
         <Link key={route.name} href={route.path} passHref>
           <div
             className={
               [route.name === activeSection
                 ? "text-[#fd5d5d] underline underline-offset-4": "text-white",
-                 "text-2xl m-8 hover:text-[#e37c73]"].join(" ")
+                 "sm:text-2xl text-lg sm:m-8 hover:text-[#e37c73]"].join(" ")
             }
           >
             <div className= { [route.width, "font-semibold ease-in-out duration-300"].join(" ")}>
