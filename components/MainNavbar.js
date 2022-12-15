@@ -29,7 +29,7 @@ const navigationRoutes = [
 
 function MainNavbar({ activeSection }) {
   return (
-    <div className="navbar-bgcolor sm:flex grid grid-cols-3 gap-2 w-screen justify-center items-center fixed z-10 ">
+    <div className="navbar-bgcolor sm:flex grid sm:mt-0 mt-2 grid-cols-3 gap-2 w-screen justify-center items-center fixed z-10 ">
       {navigationRoutes.map((route) => (
         <Link key={route.name} href={route.path} passHref>
           <div
