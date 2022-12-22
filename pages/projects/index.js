@@ -5,6 +5,14 @@ import Header from "../../components/Header";
 
 const MyProjects = [
   {
+    title: "Expense Tracker App",
+    description: "This is my ninth project",
+    tech: "ReactNative, Expo, Firebase",
+    image: "/projects/ExpenseTracker.jpg",
+    link: "https://github.com/onlykingKD/expense-tracker-react-native",
+    date: "Dec-2022",
+  },
+  {
     title: "TMDB Movie App",
     description: "This is my first project",
     tech: "React, Auth0, TailwindCSS",
@@ -67,14 +75,6 @@ const MyProjects = [
     image: "/projects/lottery.png",
     link: "https://github.com/onlykingKD/Lottery-Contract",
     date: "Oct-2022",
-  },
-  {
-    title: "Number Guessing Game",
-    description: "This is my ninth project",
-    tech: "ReactNative, Expo",
-    image: "/projects/guessNumber.jpg",
-    link: "https://github.com/onlykingKD/NumberGuessing-ReactNative",
-    date: "Sept-2022",
   },
   {
     title: "Calculator App",
