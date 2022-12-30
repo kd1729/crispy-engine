@@ -13,15 +13,15 @@ const navigationRoutes = [
     name: "Strengths",
     path: "/about/strengths",
   },
-  {
-    name: "Achievements",
-    path: "/about/achievements",
-  },
+  // {
+  //   name: "Achievements",
+  //   path: "/about/achievements",
+  // },
 ];
 
 export default function InnerNavbar({ activeSection }) {
   return (
-    <div className="sm:flex grid grid-cols-2 grid-rows-2 text-white sm:pt-32 pt-24 font-semibold justify-center">
+    <div className="flex sm:justify-center sm:gap-10 justify-around text-white sm:pt-32 pt-24 font-semibold ">
       {navigationRoutes.map((route) => (
         <Link key={route.name} href={route.path} passHref>
           <div
