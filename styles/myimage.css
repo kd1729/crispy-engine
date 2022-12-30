@@ -8,6 +8,7 @@
 
 @media (max-width: 640px){
   .photo {
+    margin-top: 3rem;
     top: 50%;
     left: 50%;
   }
@@ -28,8 +29,8 @@
 
 @media (max-width: 640px){
   .photo img {
-    width: 220px;
-    height: 220px;
+    width: 200px;
+    height: 200px;
   }
 }
 
