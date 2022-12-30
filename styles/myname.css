@@ -61,11 +61,11 @@ wrapper {
   }
   .wrapper .dynamic-txts {
     margin-left: 5px;
-    height: 40px;
-    line-height: 40px;
+    height: 45px;
+    line-height: 45px;
   }
   .dynamic-txts li {
-    font-size: 33px;
+    font-size: 30px;
     animation: slide 12s steps(4) infinite;
   }
   @keyframes slide {

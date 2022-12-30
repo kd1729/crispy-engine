@@ -8,17 +8,17 @@ export default function Home() {
   return (
     <div>
       <MainNavbar activeSection="Home" />
-      <div className="sm:pl-40 pl-10 sm:pt-80 pt-40">
-        <div className="">
-          <div className="">
+      <div className="sm:pl-40">
+        <div className="sm:pt-80 pt-40">
+          <div className="sm:pl-0 pl-10">
             <MyName />
           </div>
-          <div className="flex sm:flex-row flex-col mt-20 sm:gap-80 gap-10 w-max">
+          <div className="flex justify-around sm:mt-20 mt-80 sm:gap-80 sm:w-max">
             <LinkedinButton />
             <ResumeDownload />
           </div>
         </div>
-        <div className="sm:block hidden">
+        <div className="">
           <MyImage2 />
         </div>
       </div>
