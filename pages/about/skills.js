@@ -72,7 +72,7 @@ const mySkills = [
         level: 60,
       },
       {
-        name: "Solidity",
+        name: "Scala",
         level: 40,
       },
     ],
@@ -85,15 +85,19 @@ const mySkills = [
         level: 90,
       },
       {
-        name: "VSCode",
+        name: "Microsoft Visual Studio",
         level: 80,
       },
       {
-        name: "Tableau",
+        name: "Zira",
         level: 70,
       },
       {
         name: "Confluence",
+        level: 80,
+      },
+      {
+        name: "Tableau",
         level: 60,
       },
     ],
@@ -110,12 +114,16 @@ const mySkills = [
         level: 70,
       },
       {
+        name: "Data Engineering",
+        level: 70,
+      },
+      {
         name: "Linux",
-        level: 50,
+        level: 60,
       },
       {
         name: "AWS",
-        level: 40,
+        level: 50,
       },
     ],
   },

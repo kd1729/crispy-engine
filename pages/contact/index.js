@@ -64,7 +64,7 @@ export default function Contact() {
             <li>
               <a
                 className="social-icon social-icon--github"
-                href="https://github.com/onlykingKD/"
+                href="https://github.com/kd1729/"
                 target="_blank"
                 rel="noreferrer"
               >

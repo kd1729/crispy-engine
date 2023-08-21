@@ -18,16 +18,15 @@ export default function About() {
 
             <div className="sm:text-2xl text-xl text-justify text-[#c5f6fe] pt-12">
               <p>
-                Hi there! I am a software developer based in Kanpur, India. I am
-                currently a final year student pursuing my Bachelors in the
-                field of Computer Science and Engineering from VIT Vellore.
+                Hi there! I am a software developer based in Kanpur, India. I graduated with Bachelors degree in CSE
+                from my college VIT Vellore in May 2023. 
               </p>
               <br />
               <p>
                 I am a passionate developer who loves to code and develop new
                 projects. I have previously done projects based on Data Science
                 and Natural Language Processing. My passion for coding and
-                development is the very reason why I am currently working on
+                development is the very reason why I have done so many
                 FrontEnd Projects (ReactJS) . I love participating in
                 competitive coding competitions, C++ being the language I am
                 most fluent in.

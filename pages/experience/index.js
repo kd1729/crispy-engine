@@ -5,20 +5,19 @@ import Image from "next/image";
 const internships = [
   {
     company: "Ivanti",
-    position: "SDE Winter Intern",
+    position: "Associate SWE + SWE Winter Intern",
     dateFrom: "Jan 9, 2023",
     dateTo: "In Progress",
     description: [
-      ["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."],
-      ["Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."],
-      ["Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."],
-      ["Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."],
+      "Worked as a Software Engineering Intern from Jan to June then joined as a full-time employee.",
+      "Migrated the build environment of the product from VisualStudio-2019 to VisualStudio-2022 using the latest build tools such as Win11 SDK and the latest WDK.",
+      "Working on various feature improvements and bug fixing.",
     ],
-    
     Image: "/internships/ivanti.jpg",
     onlineImgURL:
       "https://drive.google.com/file/d/1QJqW_b83osZo05hiL9GzlwU0UgER0KvE/view?usp=share_link",
-    certificateLink: "",
+    certificateLink:
+      "https://drive.google.com/file/d/1BoTSyW7JHYPKf7m6aJdgTKmnYjDZJdZe/view?usp=sharing",
   },
   {
     company: "Walmart",
@@ -26,9 +25,9 @@ const internships = [
     dateFrom: "May 17, 2022",
     dateTo: "July 15, 2022",
     description:[
-      ["Developed various analytical live dashboards in tableau which eliminated the need for manual reporting and helped in better decision making."],
-      ["Worked on the integration of Google Secret Manager API in a Big Data project which helped in better security of the data."],
-      ["Learned about various Data Engineering tools like Spark, Kafka, etc. Also learned about various Data Engineering concepts like ETL, Data Pipelines, etc."],
+      "Developed various analytical live dashboards in tableau which eliminated the need for manual reporting and helped in better decision making.",
+      "Worked on the integration of Google Secret Manager API in a Big Data project which helped in better security of the data.",
+      "Learned about various Data Engineering tools like Spark, Kafka, etc. Also learned about various Data Engineering concepts like ETL, Data Pipelines, etc.",
     ],
     Image: "/internships/walmart.jpg",
     certificateLink:

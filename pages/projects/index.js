@@ -9,7 +9,7 @@ const MyProjects = [
     description: "This is my ninth project",
     tech: "ReactNative, Expo, Firebase",
     image: "/projects/ExpenseTracker.jpg",
-    link: "https://github.com/onlykingKD/expense-tracker-react-native",
+    link: "https://github.com/kd1729/expense-tracker-react-native",
     date: "Dec-2022",
   },
   {
@@ -17,7 +17,7 @@ const MyProjects = [
     description: "This is my first project",
     tech: "React, Auth0, TailwindCSS",
     image: "/projects/tmdb.jpg",
-    link: "https://github.com/onlykingKD/movie_db_react_app",
+    link: "https://github.com/kd1729/movie_db_react_app",
     date: "Dec-2021",
   },
   {
@@ -25,7 +25,7 @@ const MyProjects = [
     description: "This is my second project",
     tech: "React, Firestore, Firebase",
     image: "/projects/todoapp.jpg",
-    link: "https://github.com/onlykingKD/multiuser_todoApp_from_scratch",
+    link: "https://github.com/kd1729/multiuser_todoApp_from_scratch",
     date: "Nov-2021",
   },
   {
@@ -41,7 +41,7 @@ const MyProjects = [
     description: "This is my fourth project",
     tech: "Transfer Learning, Keras",
     image: "/projects/facemask.jpg",
-    link: "https://github.com/onlykingKD/Face-Mask-Detector",
+    link: "https://github.com/kd1729/Face-Mask-Detector",
     date: "Dec-2020",
   },
   {
@@ -49,7 +49,7 @@ const MyProjects = [
     description: "This is my fifth project",
     tech: "HTML5, CSS3, JavaScript",
     image: "/projects/frontend.jpg",
-    link: "https://github.com/onlykingKD/FRONTEND-MENTOR-CHALLENGES",
+    link: "https://github.com/kd1729/FRONTEND-MENTOR-CHALLENGES",
     date: "July-2021",
   },
   {
@@ -57,7 +57,7 @@ const MyProjects = [
     description: "This is my sixth project",
     tech: "HTML5, CSS3, JavaScript",
     image: "/projects/ipaddress.jpg",
-    link: "https://github.com/onlykingKD/IP-Adress-Tracker",
+    link: "https://github.com/kd1729/IP-Adress-Tracker",
     date: "Aug-2021",
   },
   {
@@ -65,7 +65,7 @@ const MyProjects = [
     description: "This is my seventh project",
     tech: "Machine Learning",
     image: "/projects/DOS.png",
-    link: "https://github.com/onlykingKD/DOS-detection-using-ML",
+    link: "https://github.com/kd1729/DOS-detection-using-ML",
     date: "March-2022",
   },
   {
@@ -73,7 +73,7 @@ const MyProjects = [
     description: "This is my eigth project",
     tech: "Solidity, Mocha, Ganache",
     image: "/projects/lottery.png",
-    link: "https://github.com/onlykingKD/Lottery-Contract",
+    link: "https://github.com/kd1729/Lottery-Contract",
     date: "Oct-2022",
   },
   {
@@ -81,7 +81,7 @@ const MyProjects = [
     description: "This is my tenth project",
     tech: "HTML5, CSS3, JavaScript",
     image: "/projects/calculator.jpg",
-    link: "https://github.com/onlykingKD/Simple-Calculator",
+    link: "https://github.com/kd1729/Simple-Calculator",
     date: "Aug-2021",
   },
 ];
@@ -136,7 +136,7 @@ export default function Projects() {
         <div className="text-white sm:text-3xl text-2xl sm:px-0 px-4 my-12 flex justify-center items-center">
           <div>Check out my Github for more projects.</div>
           <a
-            href="github.com/onlykingKD"
+            href="github.com/kd1729"
             target="_blank"
             rel="noreferrer"
             className="font-semibold text-lg text-[#8925a8] decoration-solid hover:underline"
