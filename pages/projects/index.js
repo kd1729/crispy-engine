@@ -17,7 +17,7 @@ const MyProjects = [
     description: "This is my first project",
     tech: "React, Auth0, TailwindCSS",
     image: "/projects/tmdb.jpg",
-    link: "https://github.com/kd1729/movie_db_react_app",
+    link: "https://github.com/kd1729/movie_tmdb_react_app",
     date: "Dec-2021",
   },
   {
