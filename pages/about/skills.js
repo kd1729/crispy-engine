@@ -89,8 +89,8 @@ const mySkills = [
         level: 80,
       },
       {
-        name: "Zira",
-        level: 70,
+        name: "Jira",
+        level: 80,
       },
       {
         name: "Confluence",
