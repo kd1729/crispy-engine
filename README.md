@@ -1,2 +1,2 @@
 # My Portfolio made in Next.js
-https://portfolio-onlykingkd.vercel.app/
+https://kd1729.vercel.app/
