@@ -1,2 +1,2 @@
-# My Portfolio made in Next.js
-https://portfolio-onlykingkd.vercel.app/
+# My Portfolio made with Next.js and Tailwind CSS
+kd1729.vercel.app
