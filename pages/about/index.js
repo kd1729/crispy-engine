@@ -18,32 +18,29 @@ export default function About() {
 
             <div className="sm:text-2xl text-xl text-justify text-[#c5f6fe] pt-12">
               <p>
-                Hi there! I am a software developer based in Kanpur, India. I graduated with Bachelors degree in CSE
-                from my college VIT Vellore in May 2023. 
-              </p>
-              <br />
-              <p>
-                I am a passionate developer who loves to code and develop new
-                projects. I have previously done projects based on Data Science
-                and Natural Language Processing. My passion for coding and
-                development is the very reason why I have done so many
-                FrontEnd Projects (ReactJS) . I love participating in
-                competitive coding competitions, C++ being the language I am
-                most fluent in.
-              </p>
-              <br />
-              <p>
-                In the forthcoming days I plan to learn Backend, NodeJS being
-                the primary environment and probably basics of Linux and DevOps
-                as well. My immediate goals include becoming a full-stack
-                developer by the end of my final year.
-              </p>
-              <br />
-              <p>
-                Apart from academics, If you are a person who loves to discuss
-                about Football, Chess, F.R.I.E.N.D.S. or Marvel or any random
-                space mystery feel free to hit me up!
-              </p>
+                I am Associate Software engineer at Ivanti, I apply my skills to create innovative solutions for IT and security management.
+                I joined Ivanti in July 2023, after completing a six-month internship at the same company, where I gained valuable experience 
+                in developing, testing, and deploying software applications. 
+            </p>
+            <br>
+            <p>
+                Before that, I interned at Walmart Global Tech India where I worked in Data Enginnering team and learnt about
+                various tools like Tableau, Google Secret Manager, Spark, Kafka, etc. I have also worked as a React Developer in 2 startups. 
+                I also contributed to the GirlScript Winter of Contributing and Code For Government program as a opensource contributor, and was a senior core member of the 
+                Student Technical Community at VIT Vellore, where I organized and participated in various technical events and workshops.    
+            </p>
+            <br>
+            <p>
+                I have completed my B.Tech in Computer Science from Vellore Institute of Technology, where I have completed 
+                multiple courses and certifications in machine learning, cloud, and Microsoft technologies. 
+                I am passionate about learning new technologies and applying them to real-world problems, 
+                and I aspire to become a leader and a mentor in the field of Software Engineering.
+            </p>
+            <br>
+            <p>
+                Apart from academics, If you are a person who loves to discuss about Football, Chess, F.R.I.E.N.D.S. or
+                Marvel or any random space mystery feel free to hit me up!
+            </p>
             </div>
           </div>
 
