@@ -22,21 +22,21 @@ export default function About() {
                 I joined Ivanti in July 2023, after completing a six-month internship at the same company, where I gained valuable experience 
                 in developing, testing, and deploying software applications. 
             </p>
-            <br>
+
             <p>
                 Before that, I interned at Walmart Global Tech India where I worked in Data Enginnering team and learnt about
                 various tools like Tableau, Google Secret Manager, Spark, Kafka, etc. I have also worked as a React Developer in 2 startups. 
                 I also contributed to the GirlScript Winter of Contributing and Code For Government program as a opensource contributor, and was a senior core member of the 
                 Student Technical Community at VIT Vellore, where I organized and participated in various technical events and workshops.    
             </p>
-            <br>
+
             <p>
                 I have completed my B.Tech in Computer Science from Vellore Institute of Technology, where I have completed 
                 multiple courses and certifications in machine learning, cloud, and Microsoft technologies. 
                 I am passionate about learning new technologies and applying them to real-world problems, 
                 and I aspire to become a leader and a mentor in the field of Software Engineering.
             </p>
-            <br>
+
             <p>
                 Apart from academics, If you are a person who loves to discuss about Football, Chess, F.R.I.E.N.D.S. or
                 Marvel or any random space mystery feel free to hit me up!
