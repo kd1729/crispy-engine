@@ -64,11 +64,11 @@ const mySkills = [
         level: 80,
       },
       {
-        name: "Java",
-        level: 70,
+        name: "JavaScript",
+        level: 80,
       },
       {
-        name: "JavaScript",
+        name: "Java",
         level: 60,
       },
       {
@@ -106,20 +106,20 @@ const mySkills = [
     name: "Miscellaneous",
     skills: [
       {
-        name: "Data Analysis",
+        name: "Windows Development",
         level: 80,
       },
       {
-        name: "Data Science",
-        level: 70,
+        name: "DS/ML",
+        level: 60,
       },
       {
-        name: "Data Engineering",
-        level: 70,
+        name: "Big Data",
+        level: 60,
       },
       {
         name: "Linux",
-        level: 60,
+        level: 50,
       },
       {
         name: "AWS",
