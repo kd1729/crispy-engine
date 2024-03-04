@@ -9,9 +9,13 @@ const internships = [
     dateFrom: "Jan 9, 2023",
     dateTo: "In Progress",
     description: [
-      "Worked as a Software Engineering Intern from Jan to June then joined as a full-time employee.",
-      "Migrated the build environment of the product from VisualStudio-2019 to VisualStudio-2022 using the latest build tools such as Win11 SDK and the latest WDK.",
-      "Working on various feature improvements and bug fixing.",
+  "Migrated the product build environment from Visual Studio 2019 to Visual Studio 2022, enhancing development
+efficiency (completed this project during my internship period Jan’23 - June’23)",
+"Achieved a 20% reduction in package size for customer shipments, optimizing product delivery.",
+"Delivered major feature implementations for key clients ensuring customer
+satisfaction and enhancing product value.",
+"Managing a primary component named HostChecker for VPN client : I am a primary point of contact for addressing bugs
+and implementing features for ongoing improvement.",
     ],
     Image: "/internships/ivanti.jpg",
     onlineImgURL:
