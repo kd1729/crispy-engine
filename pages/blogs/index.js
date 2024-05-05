@@ -4,66 +4,73 @@ import Header from "../../components/Header";
 
 const blogs = [
   {
+    title: "Converting Epoch Time to System Local Time",
+    date: "04 April, 2024",
+    description: 
+      "Discussed about Converting Epoch Time to System Local Time based on the user’s locale settings.",
+    link: "https://medium.com/@kaustubhdwivedi1729/converting-epoch-time-to-system-local-time-based-on-the-users-locale-settings-f1653671b49f",
+  },
+  {
     title: "My Interview Experience at Ivanti",
     date: "16 Sept, 2022",
     description:
-      "In this article I discussed about my on-campus selection process for Ivanti company.",
+      "Discussed about my on-campus selection process for Ivanti company.",
     link: "https://www.geeksforgeeks.org/ivanti-interview-experience-on-campus-2022/",
   },
   {
     title: "Implementing Upper-Lower Bounds from Scratch",
     date: "April 30, 2022",
     description:
-      "In this article I discussed the implementations of both upper and lower bounds from scratch.",
+      "Discussed about the implementations of both upper and lower bounds from scratch.",
     link: "https://medium.com/@kaustubhdwivedi1729/implementing-upper-bound-and-lower-bound-from-binary-search-9595a0a0534",
   },
   {
     title: "When to use which Sorting Algorithm",
     date: "Dec 22, 2021",
     description:
-      "In this article I discussed about various scenarios in which we should use different sorting algorithms. ",
+      "Discussed about various scenarios in which we should use different sorting algorithms. ",
     link: "https://medium.com/@kaustubhdwivedi1729/when-to-use-which-sorting-algorithm-125897e40295",
   },
   {
     title: "Reverse a Linked List recursively",
     date: "Dec 22, 2021",
     description:
-      "In this article I discussed about reversing a linked list recursively.",
+      "Discussed about reversing a linked list recursively.",
     link: "https://medium.com/@kaustubhdwivedi1729/reversing-a-linked-list-recursively-7f150debb37b",
   },
   {
     title: "Finding loop in a Linked List",
     date: "Dec 14, 2021",
     description:
-      "In this article I discussed about finding a loop in a linked list.",
+      "Discussed about finding a loop in a linked list.",
     link: "https://medium.com/@kaustubhdwivedi1729/finding-loop-cycle-in-a-linked-list-96786f64ca77",
   },
   {
     title: "Beginner's guide to Binary Search",
     date: "Dec 26, 2020",
     description:
-      "In this article I discussed about the basics of binary search and its implementation in C++.",
+      "Discussed about the basics of binary search and its implementation in C++.",
     link: "https://medium.com/student-technical-community-vit-vellore/welcome-to-binary-search-baa38162959a",
   },
   {
     title: "A Brief Introduction to Reinforcement Learning",
     date: "Dec 14, 2020",
     description:
-      "In this article I discussed about the basics of reinforcement learning and its types.",
+      "Discussed about the basics of reinforcement learning and its types.",
     link: "https://medium.com/student-technical-community-vit-vellore/a-brief-introduction-to-reinforcement-learning-6a74f5a61834",
   },
   {
     title: "Outliers Analysis in Machine Learning",
     date: "Nov 23, 2020",
     description:
-      "In this article I discussed about the basics of outliers and its analysis in machine learning.",
+      "Discussed about the basics of outliers and its analysis in machine learning.",
     link: "https://medium.com/student-technical-community-vit-vellore/outliers-analysis-in-machine-learning-fd0c60c10931",
   },
   {
     title: "Longest Odd Even Subsequence",
     date: "Oct 11, 2020",
     description:
-      "In this article I discussed about the basics of longest odd even subsequence and its implementation in C++.",
+      "Discussed about the basics of longest odd even subsequence and its implementation in C++.",
     link: "https://medium.com/@kaustubhdwivedi1729/longest-odd-even-subsequence-7b32578b9f08",
   },
 ];
