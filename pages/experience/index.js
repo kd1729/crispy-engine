@@ -9,13 +9,14 @@ const internships = [
     dateFrom: "Jan 9, 2023",
     dateTo: "In Progress",
     description: [
-  "Migrated the product build environment from Visual Studio 2019 to Visual Studio 2022, enhancing development
+  "Migrated the product build environment from Visual Studio 2019 to Visual Studio 2022, enhancing development \
 efficiency (completed this project during my internship period Jan’23 - June’23)",
-"Achieved a 20% reduction in package size for customer shipments, optimizing product delivery.",
-"Delivered major feature implementations for key clients ensuring customer
-satisfaction and enhancing product value.",
-"Managing a primary component named HostChecker for VPN client : I am a primary point of contact for addressing bugs
-and implementing features for ongoing improvement.",
+ "Achieved a 20% reduction in package size for customer shipments, optimizing product delivery.",
+ "Orchestrated and executed major feature rollouts for high-profile clients including Microsoft, Telefonica, and \
+GovTech; ensured seamless integration, driving customer satisfaction and increasing product value",
+"Spearheaded the enhancement of HostChecker component for VPN client, serving as primary point of contact for \
+bug fixes and feature implementation, resulting in a 30% reduction in user-reported issues",
+"Addressed numerous customer-reported issues and worked on several critical internal defects over the last 10 months."
     ],
     Image: "/internships/ivanti.jpg",
     onlineImgURL:
@@ -29,9 +30,12 @@ and implementing features for ongoing improvement.",
     dateFrom: "May 17, 2022",
     dateTo: "July 15, 2022",
     description:[
-      "Developed various analytical live dashboards in tableau which eliminated the need for manual reporting and helped in better decision making.",
-      "Worked on the integration of Google Secret Manager API in a Big Data project which helped in better security of the data.",
-      "Learned about various Data Engineering tools like Spark, Kafka, etc. Also learned about various Data Engineering concepts like ETL, Data Pipelines, etc.",
+      "Designed and implemented analytical live dashboards using Tableau, eliminating manual efforts and enhancing \
+data-driven decision-making",
+      "Incorporated Google Secret Manager API into a Big Data project, contributing to improved security and data \
+management practices",
+      "Gained proficiency in Data Engineering tools such as Hadoop, Spark, and Kafka, alongside hands-on experience with \
+ETL and Data Pipelines",
     ],
     Image: "/internships/walmart.jpg",
     certificateLink:
