@@ -4,10 +4,17 @@ import Header from "../../components/Header";
 
 const blogs = [
   {
+    title: "Google Interview Experience for SWE-2 (L3) Position || Selected",
+    date: "02 Dec, 2024",
+    description: 
+      "Detailed walkthrough of my complete Google interview process from pre-screening to final selection, including technical rounds, behavioral questions, and team matching.",
+    link: "https://medium.com/@kaustubhdwivedi1729/google-interview-experience-for-swe-2-l3-position-selected",
+  },
+  {
     title: "Converting Epoch Time to System Local Time",
     date: "04 April, 2024",
     description: 
-      "Discussed about Converting Epoch Time to System Local Time based on the user’s locale settings.",
+      "Discussed about Converting Epoch Time to System Local Time based on the user's locale settings.",
     link: "https://medium.com/@kaustubhdwivedi1729/converting-epoch-time-to-system-local-time-based-on-the-users-locale-settings-f1653671b49f",
   },
   {
