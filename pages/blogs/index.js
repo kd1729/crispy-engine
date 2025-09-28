@@ -4,6 +4,13 @@ import Header from "../../components/Header";
 
 const blogs = [
   {
+    title: "My Google Interview Experience for SWE-2 (L3) Position",
+    date: "Sept 28, 2025",
+    description:
+      "Detailed my preparation journey, interview process, and final selection at Google for the SWE-2 (L3) position.",
+    link: "https://medium.com/@kaustubhdwivedi1729/google-interview-experience-for-swe-2-l3-position-selected-ea71270c8133",
+  },
+  {
     title: "Converting Epoch Time to System Local Time",
     date: "04 April, 2024",
     description: 
