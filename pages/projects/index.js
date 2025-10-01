@@ -88,44 +88,44 @@ const MyProjects = [
 
 export default function Projects() {
   return (
-    <div>
+    <div className="min-h-screen">
       <MainNavbar activeSection="Projects" />
-      <div className=" flex flex-col justify-center items-center pt-20">
+      <div className="flex flex-col justify-center items-center pt-20 px-4">
         <Header name="My Projects" />
         <div className="my-10 grid grid-cols-1 sm:grid-cols-2 sm:gap-24 gap-12 justify-center items-center">
           {MyProjects.map((project) => (
             <div
               key={project.name}
-              className="card sm:w-[32rem] sm:h-[8rem] w-[16rem] justify-center items-center p-2 flex sm:flex-row flex-col rounded-xl shadow-[0_20px_40px_-15px_#04022fff] hover:shadow-[0_15px_60px_-15px_#4b4b7dff]"
+              className="glass-card sm:w-[32rem] sm:h-auto w-[20rem] h-auto justify-center items-center p-4 flex sm:flex-row flex-col rounded-2xl hover:scale-105 transition-all duration-300 group overflow-hidden"
             >
-              <div className="pl-2">
+              <div className="sm:w-48 sm:h-32 w-full h-40 flex-shrink-0 overflow-hidden rounded-lg">
                 <Image
-                  className="cardimg"
+                  className="cardimg w-full h-full object-cover rounded-lg shadow-lg group-hover:shadow-xl transition-all duration-300"
                   src={project.image}
                   alt={project.title}
-                  height={0}
-                  width={230}
+                  fill
+                  sizes="(max-width: 640px) 100vw, 192px"
                 />
               </div>
-              <div className="flex flex-col justify-center items-center flex-1 pl-2">
-                <h3 className="cardtitle font-semibold text-lg text-[#EB6440]">
+              <div className="flex flex-col justify-center items-center flex-1 sm:pl-4 pt-4 sm:pt-0 min-w-0">
+                <h3 className="cardtitle font-bold text-lg text-white group-hover:text-blue-200 transition-colors duration-300">
                   {project.title}
                 </h3>
-                <h3 className="whitespace-nowrap font-semibold text-[#4054eb]">
+                <h3 className="font-medium text-blue-200 mt-1 text-center text-sm">
                   {project.tech}
                 </h3>
                 <a
                   href={project.link}
                   target="_blank"
                   rel="noreferrer"
-                  className="font-semibold text-lg text-[#8925a8] decoration-solid hover:underline"
+                  className="font-medium text-purple-200 hover:text-white decoration-solid hover:underline transition-colors duration-300 mt-2"
                 >
                   <div className="flex justify-center items-center text-base">
                     <span> Github Link</span>{" "}
-                    <AiFillGithub color="#171515" className="text-2xl ml-1" />
+                    <AiFillGithub color="#ffffff" className="text-xl ml-1" />
                   </div>
                 </a>
-                <h4 className="font-semibold text-lg text-[#4054eb]">
+                <h4 className="font-medium text-sm text-blue-100 mt-1">
                   {project.date}
                 </h4>
                 {/* <div className="font-bold">{project.description}</div> */}
@@ -133,17 +133,17 @@ export default function Projects() {
             </div>
           ))}
         </div>
-        <div className="text-white sm:text-3xl text-2xl sm:px-0 px-4 my-12 flex justify-center items-center">
-          <div>Check out my Github for more projects.</div>
+        <div className="text-white sm:text-2xl text-xl sm:px-0 px-4 my-12 flex justify-center items-center glass-card p-6 rounded-2xl">
+          <div className="font-medium">Check out my Github for more projects.</div>
           <a
             href="github.com/kd1729"
             target="_blank"
             rel="noreferrer"
-            className="font-semibold text-lg text-[#8925a8] decoration-solid hover:underline"
+            className="ml-4 hover:scale-110 transition-transform duration-300"
           >
             <AiFillGithub
-              color="#171515"
-              className="ml-4 text-5xl bg-white rounded-lg"
+              color="#ffffff"
+              className="text-4xl hover:text-blue-200 transition-colors duration-300"
             />
           </a>
         </div>
