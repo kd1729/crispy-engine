@@ -1,6 +1,6 @@
 .contact h2 {
   padding-top: 6rem;
-  color: #F7F7F7;
+  color: #ffffff;
   text-align: center;
   font-size: 3rem;
   font-weight: 600;
@@ -12,14 +12,15 @@
 }
 
 .feedback-input {
-  color: white;
-  font-family: Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  font-family: 'Inter', system-ui, sans-serif;
   font-weight: 500;
   font-size: 18px;
-  border-radius: 5px;
+  border-radius: 12px;
   line-height: 22px;
-  background-color: transparent;
-  border: 2px solid #cc6666;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -27,10 +28,17 @@
   width: 100%;
   box-sizing: border-box;
   outline: 0;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
 .feedback-input:focus {
-  border: 2px solid #cc4949;
+  border: 1px solid rgba(147, 197, 253, 0.5);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px rgba(59, 130, 246, 0.15);
+}
+
+.feedback-input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 textarea {
@@ -40,13 +48,13 @@ textarea {
 }
 
 [type="submit"] {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-family: 'Inter', system-ui, sans-serif;
   width: 100%;
-  background: #cc6666;
-  border-radius: 5px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
   border: 0;
   cursor: pointer;
-  color: white;
+  color: #ffffff;
   font-size: 24px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -54,10 +62,13 @@ textarea {
   transition: all 0.3s;
   margin-top: -4px;
   font-weight: 700;
+  box-shadow: 0 8px 32px rgba(102, 126, 234, 0.3);
 }
 
 [type="submit"]:hover {
-  background: #cc4949;
+  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(102, 126, 234, 0.4);
 }
 
 /* Social Media icons  */
@@ -83,13 +94,16 @@ textarea {
   padding: 6px;
   box-sizing: border-box;
   text-decoration: none;
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
-  background: linear-gradient(0deg, #ddd, #fff);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   transition: 0.5s;
 }
 
 .icons ul li a:hover {
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+  transform: translateY(-4px);
   text-decoration: none;
 }
 
@@ -97,10 +111,10 @@ textarea {
   width: 100%;
   height: 100%;
   display: block;
-  background: linear-gradient(0deg, #fff, #ddd);
-  border-radius: 30%;
+  background: transparent;
+  border-radius: 50%;
   line-height: 48px;
-  color: #262626;
+  color: #ffffff;
   transition: 0.5s;
 }
 

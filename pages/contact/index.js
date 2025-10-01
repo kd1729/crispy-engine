@@ -12,11 +12,11 @@ import Header from "../../components/Header";
 
 export default function Contact() {
   return (
-    <div>
+    <div className="min-h-screen">
       <MainNavbar activeSection="Contact" />
-      <div className="contact flex flex-col justify-center items-center pt-20 px-16">
+      <div className="contact flex flex-col justify-center items-center pt-20 px-8 pb-20">
         <Header name="Contact Me" />
-        <form action="https://formspree.io/f/mqkwgovb" method="POST">
+        <form action="https://formspree.io/f/mqkwgovb" method="POST" className="glass-card p-8 rounded-2xl w-full max-w-md">
           <input
             name="name"
             type="text"
@@ -37,7 +37,7 @@ export default function Contact() {
           <input type="submit" value="SUBMIT" className="scroll" />
         </form>
 
-        <div className="icons">
+        <div className="icons mt-8">
           <ul>
             <li>
               <a
