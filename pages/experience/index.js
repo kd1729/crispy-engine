@@ -5,7 +5,7 @@ import Image from "next/image";
 const internships = [
   {
     company: "Google",
-    position: "Software Engineer (L3) (C++/Go/SQL/Backend/Internal Tools of Google)",
+    position: "Software Engineer",
     dateFrom: "Dec 2024",
     dateTo: "Present",
     description:[
