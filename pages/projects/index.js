@@ -86,6 +86,7 @@ const MyProjects = [
   },
 ];
 
+
 export default function Projects() {
   return (
     <div className="min-h-screen">
@@ -94,11 +95,15 @@ export default function Projects() {
         <Header name="My Projects" />
         <div className="my-10 grid grid-cols-1 sm:grid-cols-2 sm:gap-24 gap-12 justify-center items-center">
           {MyProjects.map((project) => (
-            <div
-              key={project.name}
+           
+            <a
+              key={project.title} 
+              href={project.link}
+              target="_blank"
+              rel="noreferrer"
               className="glass-card sm:w-[32rem] sm:h-auto w-[20rem] h-auto justify-center items-center p-4 flex sm:flex-row flex-col rounded-2xl hover:scale-105 transition-all duration-300 group overflow-hidden"
             >
-              <div className="sm:w-48 sm:h-32 w-full h-40 flex-shrink-0 overflow-hidden rounded-lg">
+              <div className="sm:w-48 sm:h-32 w-full h-40 flex-shrink-0 overflow-hidden rounded-lg relative"> {/* Added relative positioning for Next/Image fill */}
                 <Image
                   className="cardimg w-full h-full object-cover rounded-lg shadow-lg group-hover:shadow-xl transition-all duration-300"
                   src={project.image}
@@ -114,29 +119,24 @@ export default function Projects() {
                 <h3 className="font-medium text-blue-200 mt-1 text-center text-sm">
                   {project.tech}
                 </h3>
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="font-medium text-purple-200 hover:text-white decoration-solid hover:underline transition-colors duration-300 mt-2"
-                >
+             
+                <div className="font-medium text-purple-200 group-hover:text-white group-hover:underline transition-colors duration-300 mt-2">
                   <div className="flex justify-center items-center text-base">
                     <span> Github Link</span>{" "}
-                    <AiFillGithub color="#ffffff" className="text-xl ml-1" />
+                    <AiFillGithub className="text-xl ml-1" />
                   </div>
-                </a>
+                </div>
                 <h4 className="font-medium text-sm text-blue-100 mt-1">
                   {project.date}
                 </h4>
-                {/* <div className="font-bold">{project.description}</div> */}
               </div>
-            </div>
+            </a>
           ))}
         </div>
         <div className="text-white sm:text-2xl text-xl sm:px-0 px-4 my-12 flex justify-center items-center glass-card p-6 rounded-2xl">
           <div className="font-medium">Check out my Github for more projects.</div>
           <a
-            href="github.com/kd1729"
+            href="https://github.com/kd1729" // Added https:// for the link to work
             target="_blank"
             rel="noreferrer"
             className="ml-4 hover:scale-110 transition-transform duration-300"
