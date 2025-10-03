@@ -1,6 +1,6 @@
 .card {
   position: relative;
-  background: rgba(255, 255, 255, 0.1);
+  background: linear-gradient(135deg, #2C497F, #1e3c72fa);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -34,7 +34,9 @@
   box-shadow: 0 8px 32px rgba(118, 75, 162, 0.2);
 }
 
-.card:hover .cardimg, .card:hover .cardtitle, .card:hover .cardtext {
+.card:hover .cardimg,
+.card:hover .cardtitle,
+.card:hover .cardtext {
   transform: scale(1.02);
   transition: ease 0.3s;
 }

@@ -45,3 +45,18 @@ body {
     background: rgba(30, 60, 114, 0.98);
   }
 }
+/* Override Tailwind arbitrary text colors with new colors */
+.text-\[\#EB6440\] {
+  --tw-text-opacity: 1;
+  color: rgb(184 213 255); /* new color */
+}
+
+.text-\[\#8925a8\] {
+  --tw-text-opacity: 1;
+  color: #8897BD; /* new color */
+}
+
+.text-\[\#4054eb\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255); /* new color */
+}
