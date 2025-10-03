@@ -13,15 +13,14 @@ const blogs = [
   {
     title: "Converting Epoch Time to System Local Time",
     date: "04 April, 2024",
-    description: 
+    description:
       "Discussed about Converting Epoch Time to System Local Time based on the user’s locale settings.",
     link: "https://medium.com/@kaustubhdwivedi1729/converting-epoch-time-to-system-local-time-based-on-the-users-locale-settings-f1653671b49f",
   },
   {
     title: "My Interview Experience at Ivanti",
     date: "16 Sept, 2022",
-    description:
-      "Discussed about my on-campus selection process for Ivanti company.",
+    description: "Discussed about my on-campus selection process for Ivanti company.",
     link: "https://www.geeksforgeeks.org/ivanti-interview-experience-on-campus-2022/",
   },
   {
@@ -35,21 +34,19 @@ const blogs = [
     title: "When to use which Sorting Algorithm",
     date: "Dec 22, 2021",
     description:
-      "Discussed about various scenarios in which we should use different sorting algorithms. ",
+      "Discussed about various scenarios in which we should use different sorting algorithms.",
     link: "https://medium.com/@kaustubhdwivedi1729/when-to-use-which-sorting-algorithm-125897e40295",
   },
   {
     title: "Reverse a Linked List recursively",
     date: "Dec 22, 2021",
-    description:
-      "Discussed about reversing a linked list recursively.",
+    description: "Discussed about reversing a linked list recursively.",
     link: "https://medium.com/@kaustubhdwivedi1729/reversing-a-linked-list-recursively-7f150debb37b",
   },
   {
     title: "Finding loop in a Linked List",
     date: "Dec 14, 2021",
-    description:
-      "Discussed about finding a loop in a linked list.",
+    description: "Discussed about finding a loop in a linked list.",
     link: "https://medium.com/@kaustubhdwivedi1729/finding-loop-cycle-in-a-linked-list-96786f64ca77",
   },
   {
@@ -86,28 +83,32 @@ export default function Blogs() {
   return (
     <div>
       <MainNavbar activeSection="Blogs" />
-      <div className=" flex flex-col justify-center items-center pt-20">
+      <div className="flex flex-col justify-center items-center pt-20 px-4 sm:px-8">
         <Header name="My Blogs" />
-        <div className="sm:my-10 my-6 grid sm:grid-cols-2 grid-cols-1 sm:gap-24 gap-12 justify-center items-center">
+
+        {/* Grid: 3 columns on sm+, 1 on mobile */}
+        <div
+          className="my-8 sm:my-12 grid sm:grid-cols-3 grid-cols-1 gap-8 sm:gap-12 justify-items-center"
+          style={{ gridAutoRows: "1fr" }}
+        >
           {blogs.map((blog) => (
             <div
               key={blog.title}
-              className=" card sm:w-[32rem] w-[20rem] h-[12rem] flex flex-col justify-center items-center rounded-lg  text-justify  
-              shadow-[0_20px_40px_-15px_#04022fff] hover:shadow-[0_15px_60px_-15px_#4b4b7dff] relative pb-4"
+              className="card flex flex-col justify-between rounded-lg shadow-lg hover:shadow-xl p-6 bg-white dark:bg-[#1f1f2e] h-full w-full max-w-[380px]"
             >
-              <h1 className="text-[#8925a8] font-medium self-start absolute top-0 left-2 pb-4">
+              <h1 className="text-[#8925a8] font-medium text-sm mb-3">
                 {blog.date}
               </h1>
-              <h1 className=" cardtitle sm:text-xl text-lg text-center text-[#EB6440] pt-8 font-semibold px-4">
+              <h2 className="cardtitle text-[#EB6440] sm:text-xl text-lg font-semibold mb-3">
                 {blog.title}
-              </h1>
-              <p className="cardtext text-[#4054eb] my-2 sm:px-8 px-4 font-semibold">
-                {blog.description}...
+              </h2>
+              <p className="cardtext text-[#4054eb] text-sm mb-4 flex-1">
+                {blog.description}{" "}
                 <a
                   href={blog.link}
                   target="_blank"
                   rel="noreferrer"
-                  className="text-[#8925a8] text-base font-semibold hover:underline"
+                  className="text-[#8925a8] font-semibold hover:underline ml-1"
                 >
                   read more
                 </a>
@@ -115,17 +116,18 @@ export default function Blogs() {
             </div>
           ))}
         </div>
+
         <div className="text-white sm:text-3xl text-2xl sm:px-0 px-6 sm:my-12 my-4 flex justify-center items-center">
           <div>Check out my Medium for all blogs.</div>
           <a
-            href="github.com/onlykingKD"
+            href="https://medium.com/@kaustubhdwivedi1729"
             target="_blank"
             rel="noreferrer"
-            className="font-semibold text-lg text-[#8925a8] decoration-solid hover:underline"
+            className="font-semibold text-lg text-[#8925a8] decoration-solid hover:underline ml-2 flex items-center"
           >
             <AiFillMediumCircle
               color="#171515"
-              className="ml-4 text-5xl bg-white rounded-[50%]"
+              className="ml-2 text-5xl bg-white rounded-full"
             />
           </a>
         </div>
