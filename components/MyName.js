@@ -7,7 +7,7 @@ export default function MyName() {
         <div className="static-txt">I&#39;m a</div>
         <ul className="dynamic-txts">
           <li>
-            <span>Student</span>
+            <span>Googler</span>
           </li>
           <li>
             <span>Developer</span>
